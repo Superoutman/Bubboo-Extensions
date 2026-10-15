@@ -6,7 +6,7 @@ A curated collection of original-format PopClip extensions for Bubboo. Authors, 
 
 **13 extensions verified with Bubboo 0.1.2 or later.** [Release acceptance](acceptance/bubboo-0.1.2/README.md). Things 3 is skipped and not included.
 
-Download [Bubboo 0.1.2](https://github.com/Superoutman/Bubboo/releases/tag/v0.1.2), then download individual `.popclipextz` files from [extension Releases](https://github.com/Superoutman/Bubboo-Extensions/releases/latest). Import through Bubboo Settings and explicitly enable each extension. `SHA256SUMS` verifies download integrity.
+Download [Bubboo 0.1.3](https://github.com/Superoutman/Bubboo/releases/tag/v0.1.3), then download individual `.popclipextz` files from [extension Releases](https://github.com/Superoutman/Bubboo-Extensions/releases/latest). Import through Bubboo Settings and explicitly enable each extension. `SHA256SUMS` verifies download integrity.
 
 **Acceptance is a release gate.** `candidate` and `blocked` entries are review material, not verified downloads. Only entries explicitly marked `verified` in [`catalog/entries.json`](catalog/entries.json) are packaged. Store/import tests alone do not establish real browser, selection replacement, Settings UI or target-app compatibility. Things 3 requires real installed-app acceptance.
 
@@ -45,7 +45,7 @@ The generated catalog records artifact filenames relative to the same Release, a
 - 公共 PR 自动执行只读校验；发布需先完成验收、合并审核、打 tag，再将该 tag 构建出的附件上传 GitHub Release。当前没有自动上传权限或发布任务。
 - 每次上游更新重新验收；扩展版本、目录和下载与 Bubboo App/Sparkle 更新分开维护。
 
-## Manual extension updates (Bubboo 0.1.3 development build)
+## Manual extension updates (Bubboo 0.1.3 or later)
 
 The app checks the small static `catalog/updates.json` only on request. It caches the catalog for six hours and uses ETag revalidation. It downloads a selected archive only when the user clicks Update. There is no automatic installation.
 
