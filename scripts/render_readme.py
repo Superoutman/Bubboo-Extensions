@@ -53,17 +53,31 @@ This collection makes extensions easier to discover, compare and install. It bri
 
 """
   }
-  # Keep the complete attribution section identical to the extension repository.
-  source_readme=(ROOT/'README.md').read_text()
-  copyright_heading='## 版权与来源 / Copyright and attribution'
-  copyright_section=copyright_heading+source_readme.split(copyright_heading,1)[1].split('## 反馈与维护 / Feedback and maintenance',1)[0]
+  copyright_sections={
+   'README.md': """## Copyright and attribution
+
+Extension copyright remains with the original authors and respective rights holders. Bubboo's inclusion, compatibility adaptations and distribution do not transfer ownership or imply endorsement or participation by the original authors or PopClip. Bubboo and PopClip are independent projects.
+
+Each package retains original author attribution, applicable licenses and source records; adaptations are documented in `NOTICE.md`. Code, icons and other resources may have different licenses. Review the package files before reuse or redistribution. MIT in the download table refers to extension code; for example, the Amazon icon by Dave Gandy is licensed under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/).
+
+If you find an attribution, licensing or inclusion error, please report it through [Issues](https://github.com/Superoutman/Bubboo-Extensions/issues), including the extension name, relevant source information and a description of the concern so it can be reviewed.
+""",
+   'README.zh-CN.md': """## 版权与来源
+
+扩展版权归原作者及相应权利人所有。Bubboo 对扩展的收录、兼容适配和分发，不代表拥有原作版权，也不表示原作者或 PopClip 官方认可或参与本项目。Bubboo 与 PopClip 是独立项目。
+
+每个包保留原作者署名、适用许可证和来源记录；适配改动在 `NOTICE.md` 中说明。代码、图标等资源可能适用不同许可，使用或再分发时请查看包内文件。下载表格中的 MIT 指扩展代码；例如 Amazon 图标由 Dave Gandy 创作，适用 [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)。
+
+如发现署名、许可或收录有误，请通过[问题反馈](https://github.com/Superoutman/Bubboo-Extensions/issues)提供扩展名称、相关来源和问题说明，以便核查处理。
+"""
+  }
   for filename in ('README.md','README.zh-CN.md'):
    path=app_repo/filename
    content=path.read_text()
    if content.count(START)!=1 or content.count(END)!=1 or '<a id="extensions"></a>' not in content:
     raise ValueError(f'{path}: expected one table block and fixed extensions anchor')
    before,rest=content.split(START,1);_,after=rest.split(END,1)
-   documents.append((path,before+START+'\n'+intros[filename]+absolute_body+'\n\n'+copyright_section.rstrip()+'\n\n'+END+after))
+   documents.append((path,before+START+'\n'+intros[filename]+absolute_body+'\n\n'+copyright_sections[filename].rstrip()+'\n\n'+END+after))
   for path,content in documents:path.write_text(content)
 if __name__=='__main__':
  parser=argparse.ArgumentParser(description=__doc__)
