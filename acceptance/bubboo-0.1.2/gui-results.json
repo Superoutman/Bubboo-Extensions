@@ -1,0 +1,108 @@
+[
+  {
+    "action": "Uppercase",
+    "source": "Hello 中文 ß & 100%",
+    "expected": "HELLO 中文 SS & 100%",
+    "actual": "HELLO 中文 SS & 100%",
+    "passed": true
+  },
+  {
+    "action": "Lowercase",
+    "source": "HELLO 中文 & 100%",
+    "expected": "hello 中文 & 100%",
+    "actual": "hello 中文 & 100%",
+    "passed": true
+  },
+  {
+    "action": "URL-encode",
+    "source": "Hello 中文 & 100%",
+    "expected": "Hello%20%E4%B8%AD%E6%96%87%20%26%20100%25",
+    "actual": "Hello%20%E4%B8%AD%E6%96%87%20%26%20100%25",
+    "passed": true
+  },
+  {
+    "action": "URL-decode",
+    "source": "Hello%20%E4%B8%AD%E6%96%87%20%26%20100%25",
+    "expected": "Hello 中文 & 100%",
+    "actual": "Hello 中文 & 100%",
+    "passed": true
+  },
+  {
+    "action": "Character Count",
+    "source": "Hello 中文 ß & 100%",
+    "actual": "17 Characters",
+    "passed": true
+  },
+  {
+    "action": "Baidu",
+    "source": "Bubboo 中文 & test",
+    "openedURL": "https://www.baidu.com/s?wd=Bubboo%20%E4%B8%AD%E6%96%87%20%26%20test",
+    "status": "passed",
+    "passed": true,
+    "destinationCheck": "Chrome title/search field verified; translation output and Shanghai map result inspected."
+  },
+  {
+    "action": "Bing",
+    "source": "Bubboo 中文 & test",
+    "openedURL": "https://www.bing.com/search?q=Bubboo%20%E4%B8%AD%E6%96%87%20%26%20test",
+    "status": "passed",
+    "passed": true,
+    "destinationCheck": "Chrome title/search field verified; translation output and Shanghai map result inspected."
+  },
+  {
+    "action": "DuckDuckGo",
+    "source": "Bubboo 中文 & test",
+    "openedURL": "https://duckduckgo.com/?q=Bubboo+%E4%B8%AD%E6%96%87+%26+test",
+    "status": "passed",
+    "passed": true,
+    "destinationCheck": "Chrome title/search field verified; translation output and Shanghai map result inspected."
+  },
+  {
+    "action": "Google",
+    "source": "Bubboo 中文 & test",
+    "openedURL": "https://www.google.com/search?q=Bubboo%20%E4%B8%AD%E6%96%87%20%26%20test",
+    "status": "passed",
+    "passed": true,
+    "destinationCheck": "Chrome title/search field verified; translation output and Shanghai map result inspected."
+  },
+  {
+    "action": "Google Translate",
+    "source": "Bubboo 中文 & test",
+    "openedURL": "https://translate.google.com/?sl=auto&tl=en&text=Bubboo%20%E4%B8%AD%E6%96%87%20%26%20test&op=translate",
+    "status": "passed",
+    "passed": true,
+    "destinationCheck": "Chrome title/search field verified; translation output and Shanghai map result inspected."
+  },
+  {
+    "action": "Google Maps",
+    "source": "Bubboo 中文 & test",
+    "openedURL": "https://www.google.com/maps?q=Bubboo%20%E4%B8%AD%E6%96%87%20%26%20test",
+    "status": "passed",
+    "passed": true,
+    "destinationCheck": "Chrome title/search field verified; translation output and Shanghai map result inspected."
+  },
+  {
+    "action": "Google Scholar",
+    "source": "Bubboo 中文 & test",
+    "openedURL": "https://scholar.google.com/scholar?q=Bubboo%20%E4%B8%AD%E6%96%87%20%26%20test",
+    "status": "passed",
+    "passed": true,
+    "destinationCheck": "Chrome title/search field verified; translation output and Shanghai map result inspected."
+  },
+  {
+    "action": "YouTube",
+    "source": "Bubboo 中文 & test",
+    "openedURL": "https://www.youtube.com/results?search_query=Bubboo%20%E4%B8%AD%E6%96%87%20%26%20test",
+    "status": "passed",
+    "passed": true,
+    "destinationCheck": "Chrome title/search field verified; translation output and Shanghai map result inspected."
+  },
+  {
+    "action": "Wikipedia",
+    "source": "Bubboo 中文 & test",
+    "openedURL": "https://en.wikipedia.org/w/index.php?search=Bubboo%20%E4%B8%AD%E6%96%87%20%26%20test",
+    "status": "passed",
+    "passed": true,
+    "destinationCheck": "Chrome title/search field verified; translation output and Shanghai map result inspected."
+  }
+]

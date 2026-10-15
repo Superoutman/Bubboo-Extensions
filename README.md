@@ -2,11 +2,11 @@
 
 A curated collection of original-format PopClip extensions for Bubboo. Authors, licenses and upstream provenance stay with each package. OpenClip support is a future runtime milestone; no new extension format is introduced here.
 
-## Current prerelease
+## Current stable collection
 
-13 extensions passed [end-to-end acceptance](acceptance/2026-10-15.md) on the recorded Bubboo development build. **The public App 0.1.1 has not been validated for this collection.** `minimumBubbooVersion` remains null; `testedBubbooBuild` identifies the exact tested executable. These are prerelease downloads until a public App build is validated. Things 3 is skipped and is not included.
+**13 extensions verified with Bubboo 0.1.2 or later.** [Release acceptance](acceptance/bubboo-0.1.2/README.md). Things 3 is skipped and not included.
 
-Downloads: [GitHub Releases](https://github.com/Superoutman/Bubboo-Extensions/releases). Download individual `.popclipextz` assets, then use Bubboo Settings → Import Extension and explicitly enable the extension. Verify the file against `SHA256SUMS` if needed.
+Download [Bubboo 0.1.2](https://github.com/Superoutman/Bubboo/releases/tag/v0.1.2), then download individual `.popclipextz` files from [extension Releases](https://github.com/Superoutman/Bubboo-Extensions/releases/latest). Import through Bubboo Settings and explicitly enable each extension. `SHA256SUMS` verifies download integrity.
 
 **Acceptance is a release gate.** `candidate` and `blocked` entries are review material, not verified downloads. Only entries explicitly marked `verified` in [`catalog/entries.json`](catalog/entries.json) are packaged. Store/import tests alone do not establish real browser, selection replacement, Settings UI or target-app compatibility. Things 3 requires real installed-app acceptance.
 
@@ -34,7 +34,7 @@ The generated catalog records artifact filenames relative to the same Release, a
 
 ## 中文说明
 
-**当前为预发布：13 项已在指定开发构建验收，尚未确认正式 App 0.1.1 的整套兼容性；Things 3 不包含在内。**
+**当前正式合集：13 项已在 Bubboo 0.1.2（build 3）正式构建完成端到端复验，最低兼容版本为 0.1.2；Things 3 暂不包含。**
 
 这是 Bubboo 的精选扩展源码与下载仓库，保留 PopClip 原格式、原作者及许可证。未来可以纳入经过独立验收的 OpenClip 原格式扩展，当前不声称已支持。
 

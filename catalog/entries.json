@@ -5,7 +5,7 @@
     "package": "Baidu.popclipext",
     "version": "0.1.0",
     "status": "verified",
-    "reason": "Passed actual TextEdit selection, toolbar action and destination checks on the recorded development build.",
+    "reason": "Passed real toolbar end-to-end regression on signed, notarized Bubboo 0.1.2 (build 3).",
     "author": "Junxue Zhang; Nicholas Moore and contributors",
     "license": "MIT",
     "upstream": {
@@ -18,14 +18,14 @@
       ],
       "author": "Junxue Zhang; Nicholas Moore and contributors"
     },
-    "minimumBubbooVersion": null,
-    "acceptance": "acceptance/2026-10-15.md",
+    "minimumBubbooVersion": "0.1.2",
+    "acceptance": "acceptance/bubboo-0.1.2/README.md",
     "testedBubbooBuild": {
-      "version": "0.1.1",
-      "buildNumber": "2",
-      "channel": "development",
-      "executableSHA256": "ded4e0a5432a8ebb0d6ea2e97ebbb5fe4cb79688c2d20ff95f62c728eb3b149c",
-      "releasedAppCompatibility": "not yet established"
+      "version": "0.1.2",
+      "buildNumber": "3",
+      "channel": "stable",
+      "executableSHA256": "c346ef5ee8942ef1b1557adf2e92d62e087939f5ddc0a7a5686a6ceaac438926",
+      "releaseURL": "https://github.com/Superoutman/Bubboo/releases/tag/v0.1.2"
     }
   },
   {
@@ -34,7 +34,7 @@
     "package": "Bing.popclipext",
     "version": "0.1.0",
     "status": "verified",
-    "reason": "Passed actual TextEdit selection, toolbar action and destination checks on the recorded development build.",
+    "reason": "Passed real toolbar end-to-end regression on signed, notarized Bubboo 0.1.2 (build 3).",
     "author": "Morton Fox; Nicholas Moore and contributors. Icon acknowledged upstream as Simple Icons.",
     "license": "MIT",
     "upstream": {
@@ -47,14 +47,14 @@
       ],
       "author": "Morton Fox; Nicholas Moore and contributors. Icon acknowledged upstream as Simple Icons."
     },
-    "minimumBubbooVersion": null,
-    "acceptance": "acceptance/2026-10-15.md",
+    "minimumBubbooVersion": "0.1.2",
+    "acceptance": "acceptance/bubboo-0.1.2/README.md",
     "testedBubbooBuild": {
-      "version": "0.1.1",
-      "buildNumber": "2",
-      "channel": "development",
-      "executableSHA256": "ded4e0a5432a8ebb0d6ea2e97ebbb5fe4cb79688c2d20ff95f62c728eb3b149c",
-      "releasedAppCompatibility": "not yet established"
+      "version": "0.1.2",
+      "buildNumber": "3",
+      "channel": "stable",
+      "executableSHA256": "c346ef5ee8942ef1b1557adf2e92d62e087939f5ddc0a7a5686a6ceaac438926",
+      "releaseURL": "https://github.com/Superoutman/Bubboo/releases/tag/v0.1.2"
     }
   },
   {
@@ -63,7 +63,7 @@
     "package": "CharCount.popclipext",
     "version": "0.1.0",
     "status": "verified",
-    "reason": "Passed actual TextEdit selection, toolbar action and destination checks on the recorded development build.",
+    "reason": "Passed real toolbar end-to-end regression on signed, notarized Bubboo 0.1.2 (build 3).",
     "author": "Nicholas Moore and contributors",
     "license": "MIT",
     "upstream": {
@@ -73,14 +73,14 @@
       "changes": [],
       "author": "Nicholas Moore and contributors"
     },
-    "minimumBubbooVersion": null,
-    "acceptance": "acceptance/2026-10-15.md",
+    "minimumBubbooVersion": "0.1.2",
+    "acceptance": "acceptance/bubboo-0.1.2/README.md",
     "testedBubbooBuild": {
-      "version": "0.1.1",
-      "buildNumber": "2",
-      "channel": "development",
-      "executableSHA256": "ded4e0a5432a8ebb0d6ea2e97ebbb5fe4cb79688c2d20ff95f62c728eb3b149c",
-      "releasedAppCompatibility": "not yet established"
+      "version": "0.1.2",
+      "buildNumber": "3",
+      "channel": "stable",
+      "executableSHA256": "c346ef5ee8942ef1b1557adf2e92d62e087939f5ddc0a7a5686a6ceaac438926",
+      "releaseURL": "https://github.com/Superoutman/Bubboo/releases/tag/v0.1.2"
     }
   },
   {
@@ -89,7 +89,7 @@
     "package": "DuckDuckGo.popclipext",
     "version": "0.1.0",
     "status": "verified",
-    "reason": "Passed actual TextEdit selection, toolbar action and destination checks on the recorded development build.",
+    "reason": "Passed real toolbar end-to-end regression on signed, notarized Bubboo 0.1.2 (build 3).",
     "author": "Nicholas Moore and contributors",
     "license": "MIT",
     "upstream": {
@@ -99,14 +99,14 @@
       "changes": [],
       "author": "Nicholas Moore and contributors"
     },
-    "minimumBubbooVersion": null,
-    "acceptance": "acceptance/2026-10-15.md",
+    "minimumBubbooVersion": "0.1.2",
+    "acceptance": "acceptance/bubboo-0.1.2/README.md",
     "testedBubbooBuild": {
-      "version": "0.1.1",
-      "buildNumber": "2",
-      "channel": "development",
-      "executableSHA256": "ded4e0a5432a8ebb0d6ea2e97ebbb5fe4cb79688c2d20ff95f62c728eb3b149c",
-      "releasedAppCompatibility": "not yet established"
+      "version": "0.1.2",
+      "buildNumber": "3",
+      "channel": "stable",
+      "executableSHA256": "c346ef5ee8942ef1b1557adf2e92d62e087939f5ddc0a7a5686a6ceaac438926",
+      "releaseURL": "https://github.com/Superoutman/Bubboo/releases/tag/v0.1.2"
     }
   },
   {
@@ -115,7 +115,7 @@
     "package": "GoogleMaps.popclipext",
     "version": "0.1.0",
     "status": "verified",
-    "reason": "Passed actual TextEdit selection, toolbar action and destination checks on the recorded development build.",
+    "reason": "Passed real toolbar end-to-end regression on signed, notarized Bubboo 0.1.2 (build 3).",
     "author": "Nicholas Moore and contributors",
     "license": "MIT",
     "upstream": {
@@ -125,14 +125,14 @@
       "changes": [],
       "author": "Nicholas Moore and contributors"
     },
-    "minimumBubbooVersion": null,
-    "acceptance": "acceptance/2026-10-15.md",
+    "minimumBubbooVersion": "0.1.2",
+    "acceptance": "acceptance/bubboo-0.1.2/README.md",
     "testedBubbooBuild": {
-      "version": "0.1.1",
-      "buildNumber": "2",
-      "channel": "development",
-      "executableSHA256": "ded4e0a5432a8ebb0d6ea2e97ebbb5fe4cb79688c2d20ff95f62c728eb3b149c",
-      "releasedAppCompatibility": "not yet established"
+      "version": "0.1.2",
+      "buildNumber": "3",
+      "channel": "stable",
+      "executableSHA256": "c346ef5ee8942ef1b1557adf2e92d62e087939f5ddc0a7a5686a6ceaac438926",
+      "releaseURL": "https://github.com/Superoutman/Bubboo/releases/tag/v0.1.2"
     }
   },
   {
@@ -141,7 +141,7 @@
     "package": "GoogleScholar.popclipext",
     "version": "0.1.0",
     "status": "verified",
-    "reason": "Passed actual TextEdit selection, toolbar action and destination checks on the recorded development build.",
+    "reason": "Passed real toolbar end-to-end regression on signed, notarized Bubboo 0.1.2 (build 3).",
     "author": "Nicholas Moore and contributors",
     "license": "MIT",
     "upstream": {
@@ -154,14 +154,14 @@
       ],
       "author": "Nicholas Moore and contributors"
     },
-    "minimumBubbooVersion": null,
-    "acceptance": "acceptance/2026-10-15.md",
+    "minimumBubbooVersion": "0.1.2",
+    "acceptance": "acceptance/bubboo-0.1.2/README.md",
     "testedBubbooBuild": {
-      "version": "0.1.1",
-      "buildNumber": "2",
-      "channel": "development",
-      "executableSHA256": "ded4e0a5432a8ebb0d6ea2e97ebbb5fe4cb79688c2d20ff95f62c728eb3b149c",
-      "releasedAppCompatibility": "not yet established"
+      "version": "0.1.2",
+      "buildNumber": "3",
+      "channel": "stable",
+      "executableSHA256": "c346ef5ee8942ef1b1557adf2e92d62e087939f5ddc0a7a5686a6ceaac438926",
+      "releaseURL": "https://github.com/Superoutman/Bubboo/releases/tag/v0.1.2"
     }
   },
   {
@@ -170,7 +170,7 @@
     "package": "GoogleSearch.popclipext",
     "version": "0.1.0",
     "status": "verified",
-    "reason": "Passed actual TextEdit selection, toolbar action and destination checks on the recorded development build.",
+    "reason": "Passed real toolbar end-to-end regression on signed, notarized Bubboo 0.1.2 (build 3).",
     "author": "Nicholas Moore and contributors",
     "license": "MIT",
     "upstream": {
@@ -180,14 +180,14 @@
       "changes": [],
       "author": "Nicholas Moore and contributors"
     },
-    "minimumBubbooVersion": null,
-    "acceptance": "acceptance/2026-10-15.md",
+    "minimumBubbooVersion": "0.1.2",
+    "acceptance": "acceptance/bubboo-0.1.2/README.md",
     "testedBubbooBuild": {
-      "version": "0.1.1",
-      "buildNumber": "2",
-      "channel": "development",
-      "executableSHA256": "ded4e0a5432a8ebb0d6ea2e97ebbb5fe4cb79688c2d20ff95f62c728eb3b149c",
-      "releasedAppCompatibility": "not yet established"
+      "version": "0.1.2",
+      "buildNumber": "3",
+      "channel": "stable",
+      "executableSHA256": "c346ef5ee8942ef1b1557adf2e92d62e087939f5ddc0a7a5686a6ceaac438926",
+      "releaseURL": "https://github.com/Superoutman/Bubboo/releases/tag/v0.1.2"
     }
   },
   {
@@ -196,7 +196,7 @@
     "package": "GoogleTranslate.popclipext",
     "version": "0.1.0",
     "status": "verified",
-    "reason": "Passed actual TextEdit selection, toolbar action and destination checks on the recorded development build.",
+    "reason": "Passed real toolbar end-to-end regression on signed, notarized Bubboo 0.1.2 (build 3).",
     "author": "Nicholas Moore and contributors",
     "license": "MIT",
     "upstream": {
@@ -209,14 +209,14 @@
       ],
       "author": "Nicholas Moore and contributors"
     },
-    "minimumBubbooVersion": null,
-    "acceptance": "acceptance/2026-10-15.md",
+    "minimumBubbooVersion": "0.1.2",
+    "acceptance": "acceptance/bubboo-0.1.2/README.md",
     "testedBubbooBuild": {
-      "version": "0.1.1",
-      "buildNumber": "2",
-      "channel": "development",
-      "executableSHA256": "ded4e0a5432a8ebb0d6ea2e97ebbb5fe4cb79688c2d20ff95f62c728eb3b149c",
-      "releasedAppCompatibility": "not yet established"
+      "version": "0.1.2",
+      "buildNumber": "3",
+      "channel": "stable",
+      "executableSHA256": "c346ef5ee8942ef1b1557adf2e92d62e087939f5ddc0a7a5686a6ceaac438926",
+      "releaseURL": "https://github.com/Superoutman/Bubboo/releases/tag/v0.1.2"
     }
   },
   {
@@ -225,7 +225,7 @@
     "package": "Lowercase.popclipext",
     "version": "0.1.0",
     "status": "verified",
-    "reason": "Passed actual TextEdit selection, toolbar action and destination checks on the recorded development build.",
+    "reason": "Passed real toolbar end-to-end regression on signed, notarized Bubboo 0.1.2 (build 3).",
     "author": "Nicholas Moore and contributors",
     "license": "MIT",
     "upstream": {
@@ -235,14 +235,14 @@
       "changes": [],
       "author": "Nicholas Moore and contributors"
     },
-    "minimumBubbooVersion": null,
-    "acceptance": "acceptance/2026-10-15.md",
+    "minimumBubbooVersion": "0.1.2",
+    "acceptance": "acceptance/bubboo-0.1.2/README.md",
     "testedBubbooBuild": {
-      "version": "0.1.1",
-      "buildNumber": "2",
-      "channel": "development",
-      "executableSHA256": "ded4e0a5432a8ebb0d6ea2e97ebbb5fe4cb79688c2d20ff95f62c728eb3b149c",
-      "releasedAppCompatibility": "not yet established"
+      "version": "0.1.2",
+      "buildNumber": "3",
+      "channel": "stable",
+      "executableSHA256": "c346ef5ee8942ef1b1557adf2e92d62e087939f5ddc0a7a5686a6ceaac438926",
+      "releaseURL": "https://github.com/Superoutman/Bubboo/releases/tag/v0.1.2"
     }
   },
   {
@@ -251,7 +251,7 @@
     "package": "URLEncode.popclipext",
     "version": "0.1.0",
     "status": "verified",
-    "reason": "Passed actual TextEdit selection, toolbar action and destination checks on the recorded development build.",
+    "reason": "Passed real toolbar end-to-end regression on signed, notarized Bubboo 0.1.2 (build 3).",
     "author": "Nicholas Moore and contributors; original Perl extension by Brett Terpstra.",
     "license": "MIT",
     "upstream": {
@@ -261,14 +261,14 @@
       "changes": [],
       "author": "Nicholas Moore and contributors; original Perl extension by Brett Terpstra."
     },
-    "minimumBubbooVersion": null,
-    "acceptance": "acceptance/2026-10-15.md",
+    "minimumBubbooVersion": "0.1.2",
+    "acceptance": "acceptance/bubboo-0.1.2/README.md",
     "testedBubbooBuild": {
-      "version": "0.1.1",
-      "buildNumber": "2",
-      "channel": "development",
-      "executableSHA256": "ded4e0a5432a8ebb0d6ea2e97ebbb5fe4cb79688c2d20ff95f62c728eb3b149c",
-      "releasedAppCompatibility": "not yet established"
+      "version": "0.1.2",
+      "buildNumber": "3",
+      "channel": "stable",
+      "executableSHA256": "c346ef5ee8942ef1b1557adf2e92d62e087939f5ddc0a7a5686a6ceaac438926",
+      "releaseURL": "https://github.com/Superoutman/Bubboo/releases/tag/v0.1.2"
     }
   },
   {
@@ -277,7 +277,7 @@
     "package": "Uppercase.popclipext",
     "version": "0.1.0",
     "status": "verified",
-    "reason": "Passed actual TextEdit selection, toolbar action and destination checks on the recorded development build.",
+    "reason": "Passed real toolbar end-to-end regression on signed, notarized Bubboo 0.1.2 (build 3).",
     "author": "Nicholas Moore and contributors",
     "license": "MIT",
     "upstream": {
@@ -287,14 +287,14 @@
       "changes": [],
       "author": "Nicholas Moore and contributors"
     },
-    "minimumBubbooVersion": null,
-    "acceptance": "acceptance/2026-10-15.md",
+    "minimumBubbooVersion": "0.1.2",
+    "acceptance": "acceptance/bubboo-0.1.2/README.md",
     "testedBubbooBuild": {
-      "version": "0.1.1",
-      "buildNumber": "2",
-      "channel": "development",
-      "executableSHA256": "ded4e0a5432a8ebb0d6ea2e97ebbb5fe4cb79688c2d20ff95f62c728eb3b149c",
-      "releasedAppCompatibility": "not yet established"
+      "version": "0.1.2",
+      "buildNumber": "3",
+      "channel": "stable",
+      "executableSHA256": "c346ef5ee8942ef1b1557adf2e92d62e087939f5ddc0a7a5686a6ceaac438926",
+      "releaseURL": "https://github.com/Superoutman/Bubboo/releases/tag/v0.1.2"
     }
   },
   {
@@ -303,7 +303,7 @@
     "package": "Wikipedia.popclipext",
     "version": "0.1.0",
     "status": "verified",
-    "reason": "Passed actual TextEdit selection, toolbar action and destination checks on the recorded development build.",
+    "reason": "Passed real toolbar end-to-end regression on signed, notarized Bubboo 0.1.2 (build 3).",
     "author": "Nicholas Moore and contributors",
     "license": "MIT",
     "upstream": {
@@ -313,14 +313,14 @@
       "changes": [],
       "author": "Nicholas Moore and contributors"
     },
-    "minimumBubbooVersion": null,
-    "acceptance": "acceptance/2026-10-15.md",
+    "minimumBubbooVersion": "0.1.2",
+    "acceptance": "acceptance/bubboo-0.1.2/README.md",
     "testedBubbooBuild": {
-      "version": "0.1.1",
-      "buildNumber": "2",
-      "channel": "development",
-      "executableSHA256": "ded4e0a5432a8ebb0d6ea2e97ebbb5fe4cb79688c2d20ff95f62c728eb3b149c",
-      "releasedAppCompatibility": "not yet established"
+      "version": "0.1.2",
+      "buildNumber": "3",
+      "channel": "stable",
+      "executableSHA256": "c346ef5ee8942ef1b1557adf2e92d62e087939f5ddc0a7a5686a6ceaac438926",
+      "releaseURL": "https://github.com/Superoutman/Bubboo/releases/tag/v0.1.2"
     }
   },
   {
@@ -329,7 +329,7 @@
     "package": "YouTube.popclipext",
     "version": "0.1.0",
     "status": "verified",
-    "reason": "Passed actual TextEdit selection, toolbar action and destination checks on the recorded development build.",
+    "reason": "Passed real toolbar end-to-end regression on signed, notarized Bubboo 0.1.2 (build 3).",
     "author": "Nicholas Moore and contributors",
     "license": "MIT",
     "upstream": {
@@ -342,14 +342,14 @@
       ],
       "author": "Nicholas Moore and contributors"
     },
-    "minimumBubbooVersion": null,
-    "acceptance": "acceptance/2026-10-15.md",
+    "minimumBubbooVersion": "0.1.2",
+    "acceptance": "acceptance/bubboo-0.1.2/README.md",
     "testedBubbooBuild": {
-      "version": "0.1.1",
-      "buildNumber": "2",
-      "channel": "development",
-      "executableSHA256": "ded4e0a5432a8ebb0d6ea2e97ebbb5fe4cb79688c2d20ff95f62c728eb3b149c",
-      "releasedAppCompatibility": "not yet established"
+      "version": "0.1.2",
+      "buildNumber": "3",
+      "channel": "stable",
+      "executableSHA256": "c346ef5ee8942ef1b1557adf2e92d62e087939f5ddc0a7a5686a6ceaac438926",
+      "releaseURL": "https://github.com/Superoutman/Bubboo/releases/tag/v0.1.2"
     }
   }
 ]
