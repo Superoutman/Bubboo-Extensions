@@ -1,0 +1,82 @@
+[
+  {
+    "package": "Capitalize",
+    "action": "Capitalize Words",
+    "input": "hello ÉLAN 中文 😀",
+    "expected": "Hello Élan 中文 😀",
+    "actual": "Hello Élan 中文 😀",
+    "passed": true
+  },
+  {
+    "package": "SentenceCase",
+    "action": "Sentence Case",
+    "input": "HELLO WORLD. how ARE YOU? 中文 😀",
+    "expected": "Hello world. How are you? 中文 😀",
+    "actual": "Hello world. How are you? 中文 😀",
+    "passed": true
+  },
+  {
+    "package": "JoinLines",
+    "action": "Join Lines",
+    "input": " one\n\n two \n中文 😀",
+    "expected": "one two 中文 😀",
+    "actual": "one two 中文 😀",
+    "passed": true
+  },
+  {
+    "package": "RemoveSpaces",
+    "action": "Remove Spaces",
+    "input": " a b\n中文\t😀 ",
+    "expected": "ab中文😀",
+    "actual": "ab中文😀",
+    "passed": true
+  },
+  {
+    "package": "Reverse",
+    "action": "Reverse",
+    "input": "one\n中文\n😀",
+    "expected": "😀\n中文\none",
+    "actual": "😀\n中文\none",
+    "passed": true
+  },
+  {
+    "package": "Sort",
+    "action": "Sort",
+    "input": "item10\nitem2\nItem1",
+    "expected": "Item1\nitem2\nitem10",
+    "actual": "Item1\nitem2\nitem10",
+    "passed": true
+  },
+  {
+    "package": "CommaList",
+    "action": "Split into lines",
+    "input": "one, two, 中文",
+    "expected": "one\ntwo\n中文",
+    "actual": "one\ntwo\n中文",
+    "passed": true
+  },
+  {
+    "package": "CommaList",
+    "action": "Join with commas",
+    "input": "one\ntwo\n中文",
+    "expected": "one, two, 中文",
+    "actual": "one, two, 中文",
+    "passed": true
+  },
+  {
+    "package": "FullHalfWidth",
+    "action": "Half",
+    "input": "ＡＢＣ１２３　中文😀",
+    "expected": "ABC123 中文😀",
+    "actual": "ABC123 中文😀",
+    "passed": true
+  },
+  {
+    "package": "FullHalfWidth",
+    "action": "Full",
+    "input": "ABC123 中文😀",
+    "expected": "ＡＢＣ１２３　中文😀",
+    "actual": "ＡＢＣ１２３　中文😀",
+    "passed": true
+  }
+]

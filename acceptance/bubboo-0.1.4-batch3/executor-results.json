@@ -1,0 +1,229 @@
+{
+  "checks": [
+    {
+      "action": "Capitalize Words",
+      "input": "hello ÉLAN 中文 😀",
+      "output": "Hello Élan 中文 😀",
+      "package": "Capitalize",
+      "result": "PASS",
+      "scenario": "application-changed"
+    },
+    {
+      "action": "Capitalize Words",
+      "input": "hello ÉLAN 中文 😀",
+      "output": "Hello Élan 中文 😀",
+      "package": "Capitalize",
+      "result": "PASS",
+      "scenario": "not-editable"
+    },
+    {
+      "action": "Capitalize Words",
+      "package": "Capitalize",
+      "result": "PASS",
+      "scenario": "untrusted-execution"
+    },
+    {
+      "action": "Sentence Case",
+      "input": "HELLO WORLD. how ARE YOU? 中文 😀",
+      "output": "Hello world. How are you? 中文 😀",
+      "package": "SentenceCase",
+      "result": "PASS",
+      "scenario": "application-changed"
+    },
+    {
+      "action": "Sentence Case",
+      "input": "HELLO WORLD. how ARE YOU? 中文 😀",
+      "output": "Hello world. How are you? 中文 😀",
+      "package": "SentenceCase",
+      "result": "PASS",
+      "scenario": "not-editable"
+    },
+    {
+      "action": "Sentence Case",
+      "package": "SentenceCase",
+      "result": "PASS",
+      "scenario": "untrusted-execution"
+    },
+    {
+      "action": "Join Lines",
+      "input": " one\n\n two \n中文 😀",
+      "output": "one two 中文 😀",
+      "package": "JoinLines",
+      "result": "PASS",
+      "scenario": "application-changed"
+    },
+    {
+      "action": "Join Lines",
+      "input": " one\n\n two \n中文 😀",
+      "output": "one two 中文 😀",
+      "package": "JoinLines",
+      "result": "PASS",
+      "scenario": "not-editable"
+    },
+    {
+      "action": "Join Lines",
+      "package": "JoinLines",
+      "result": "PASS",
+      "scenario": "untrusted-execution"
+    },
+    {
+      "action": "Remove Spaces",
+      "input": " a b\n中文\t😀 ",
+      "output": "ab中文😀",
+      "package": "RemoveSpaces",
+      "result": "PASS",
+      "scenario": "application-changed"
+    },
+    {
+      "action": "Remove Spaces",
+      "input": " a b\n中文\t😀 ",
+      "output": "ab中文😀",
+      "package": "RemoveSpaces",
+      "result": "PASS",
+      "scenario": "not-editable"
+    },
+    {
+      "action": "Remove Spaces",
+      "package": "RemoveSpaces",
+      "result": "PASS",
+      "scenario": "untrusted-execution"
+    },
+    {
+      "action": "Reverse",
+      "input": "one\n中文\n😀",
+      "output": "😀\n中文\none",
+      "package": "Reverse",
+      "result": "PASS",
+      "scenario": "application-changed"
+    },
+    {
+      "action": "Reverse",
+      "input": "one\n中文\n😀",
+      "output": "😀\n中文\none",
+      "package": "Reverse",
+      "result": "PASS",
+      "scenario": "not-editable"
+    },
+    {
+      "action": "Reverse",
+      "package": "Reverse",
+      "result": "PASS",
+      "scenario": "untrusted-execution"
+    },
+    {
+      "action": "Sort",
+      "input": "item10\nitem2\nItem1",
+      "output": "Item1\nitem2\nitem10",
+      "package": "Sort",
+      "result": "PASS",
+      "scenario": "application-changed"
+    },
+    {
+      "action": "Sort",
+      "input": "item10\nitem2\nItem1",
+      "output": "Item1\nitem2\nitem10",
+      "package": "Sort",
+      "result": "PASS",
+      "scenario": "not-editable"
+    },
+    {
+      "action": "Sort",
+      "package": "Sort",
+      "result": "PASS",
+      "scenario": "untrusted-execution"
+    },
+    {
+      "action": "Split into lines",
+      "input": "one, two, 中文",
+      "output": "one\rtwo\r中文",
+      "package": "CommaList",
+      "result": "PASS",
+      "scenario": "application-changed"
+    },
+    {
+      "action": "Split into lines",
+      "input": "one, two, 中文",
+      "output": "one\rtwo\r中文",
+      "package": "CommaList",
+      "result": "PASS",
+      "scenario": "not-editable"
+    },
+    {
+      "action": "Split into lines",
+      "package": "CommaList",
+      "result": "PASS",
+      "scenario": "untrusted-execution"
+    },
+    {
+      "action": "Join with commas",
+      "input": "one\ntwo\n中文",
+      "output": "one, two, 中文",
+      "package": "CommaList",
+      "result": "PASS",
+      "scenario": "application-changed"
+    },
+    {
+      "action": "Join with commas",
+      "input": "one\ntwo\n中文",
+      "output": "one, two, 中文",
+      "package": "CommaList",
+      "result": "PASS",
+      "scenario": "not-editable"
+    },
+    {
+      "action": "Join with commas",
+      "package": "CommaList",
+      "result": "PASS",
+      "scenario": "untrusted-execution"
+    },
+    {
+      "action": "Half",
+      "input": "ＡＢＣ１２３　中文😀",
+      "output": "ABC123 中文😀",
+      "package": "FullHalfWidth",
+      "result": "PASS",
+      "scenario": "application-changed"
+    },
+    {
+      "action": "Half",
+      "input": "ＡＢＣ１２３　中文😀",
+      "output": "ABC123 中文😀",
+      "package": "FullHalfWidth",
+      "result": "PASS",
+      "scenario": "not-editable"
+    },
+    {
+      "action": "Half",
+      "package": "FullHalfWidth",
+      "result": "PASS",
+      "scenario": "untrusted-execution"
+    },
+    {
+      "action": "Full",
+      "input": "ABC123 中文😀",
+      "output": "ＡＢＣ１２３　中文😀",
+      "package": "FullHalfWidth",
+      "result": "PASS",
+      "scenario": "application-changed"
+    },
+    {
+      "action": "Full",
+      "input": "ABC123 中文😀",
+      "output": "ＡＢＣ１２３　中文😀",
+      "package": "FullHalfWidth",
+      "result": "PASS",
+      "scenario": "not-editable"
+    },
+    {
+      "action": "Full",
+      "package": "FullHalfWidth",
+      "result": "PASS",
+      "scenario": "untrusted-execution"
+    }
+  ],
+  "count": 30,
+  "limitations": "Injected frontmost/editability fixtures exercise copy fallback only. No GUI selection acquisition, real focus restoration, CGEvent posting, URL opening, general pasteboard access or successful paste injection tested. This is integration evidence, not full GUI end-to-end acceptance.",
+  "scope": "Production ActionExecutor and ExtensionStore with injected focus fixtures and a real isolated named NSPasteboard. JavaScript uses the shipped signed HobJSRuntime; FullHalfWidth executes system Perl. GUI replacement is separately tested.",
+  "status": "PASS",
+  "timestamp": "2026-10-15T15:05:57Z"
+}

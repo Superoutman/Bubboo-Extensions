@@ -1,0 +1,510 @@
+[
+  {
+    "package": "Capitalize",
+    "upstreamCommit": "a8d8d085f61fe8624b8eed49883324213b4f43f4",
+    "status": "verified",
+    "sourceFiles": [
+      {
+        "path": "Config.json",
+        "sha256": "205e106c212132891f6bbaf5320a7ae4d6d09e83d6fef705860a8971b805af1e"
+      },
+      {
+        "path": "capitalize.js",
+        "sha256": "ed7a7df89ad51d3161b0c09e4d0325bccd39a03a08d7b9d55a50e1fbcb4ea98d"
+      }
+    ],
+    "reason": "Real TextEdit replacement passed; see text-gui-results.json."
+  },
+  {
+    "package": "SentenceCase",
+    "upstreamCommit": "a8d8d085f61fe8624b8eed49883324213b4f43f4",
+    "status": "verified",
+    "sourceFiles": [
+      {
+        "path": "Config.json",
+        "sha256": "ceb9fa357a4cd7fe346a497eaf35d7ce180022d981eb4c30721225d8f58846b7"
+      },
+      {
+        "path": "sentence-case.js",
+        "sha256": "08dc4b3327db3b8181efbc3c5ebd57f5cffb555b9e6f6f8acb9959d1adce0bf4"
+      }
+    ],
+    "reason": "Real TextEdit replacement passed; see text-gui-results.json."
+  },
+  {
+    "package": "JoinLines",
+    "upstreamCommit": "a8d8d085f61fe8624b8eed49883324213b4f43f4",
+    "status": "verified",
+    "sourceFiles": [
+      {
+        "path": "Config.json",
+        "sha256": "c314afb5f351e0c826c76741c43b72f94c2c0d125897efcc0084ac8bb31cf8f4"
+      },
+      {
+        "path": "JoinLines-demo.gif",
+        "sha256": "56452e7a32e778b8179afa671d42661f8189dc0ca51c99f90e467b7dc674b45b"
+      },
+      {
+        "path": "JoinLines.svg",
+        "sha256": "1ca269b9ddfcbac57e3b91c58597d0c74a96260611213f0f4468e4c343487adf"
+      },
+      {
+        "path": "Readme.md",
+        "sha256": "c45bda003939afece06d1979ef4559284b9b6b10e2536b4ff5585c71dc75a466"
+      },
+      {
+        "path": "join-lines.js",
+        "sha256": "17e85928a1376a9e7f9d05f31fe32cc9c5f0ce1b44d9cf5cb6b1348157b3e94f"
+      },
+      {
+        "path": "join-lines.ts",
+        "sha256": "243475658bc0a4575d137b28e4e9f8b08fd0be420794c901f979308e5ce1e27c"
+      },
+      {
+        "path": "test.js",
+        "sha256": "8bfc167f706bba4e6497c632701bbeb2c71c7a44ad61d34809e80e6c3024b2a4"
+      }
+    ],
+    "reason": "Real TextEdit replacement passed; see text-gui-results.json."
+  },
+  {
+    "package": "RemoveSpaces",
+    "upstreamCommit": "a8d8d085f61fe8624b8eed49883324213b4f43f4",
+    "status": "verified",
+    "sourceFiles": [
+      {
+        "path": "Config.json",
+        "sha256": "f89659ffbd3b9cff34cc8bbab6e876f1e57e7f126743f141421412fb2d58a14b"
+      },
+      {
+        "path": "Readme.md",
+        "sha256": "4950809955ccac99c99fdbeba7beb8c823be92a63147fbd703d55df65bbee7fe"
+      },
+      {
+        "path": "RemoveSpaces-demo.mp4",
+        "sha256": "08e5d489ddbc2afb2791fa34a60004a2347abaeeb389526ed1bf0e7c6bd23484"
+      },
+      {
+        "path": "remspace.png",
+        "sha256": "b6d85cf1c0eb7413bc5a1650c0c658add8fccf8ad13e8419164d263ac0440c2c"
+      }
+    ],
+    "reason": "Real TextEdit replacement passed; see text-gui-results.json."
+  },
+  {
+    "package": "Reverse",
+    "upstreamCommit": "a8d8d085f61fe8624b8eed49883324213b4f43f4",
+    "status": "verified",
+    "sourceFiles": [
+      {
+        "path": "Config.json",
+        "sha256": "8401377e83672e640c3b3e9b5499a457f8f0973dad2c877e1710427d638476cc"
+      },
+      {
+        "path": "reverse.js",
+        "sha256": "980c614230db3f37b3adcddd917cce4783a781987a9f3dd23591b222597207be"
+      },
+      {
+        "path": "reverse.png",
+        "sha256": "16fef0582f810f5e4613f995bae77fe24dd6def787a591edb4107304831c78f4"
+      }
+    ],
+    "reason": "Real TextEdit replacement passed; see text-gui-results.json."
+  },
+  {
+    "package": "Sort",
+    "upstreamCommit": "a8d8d085f61fe8624b8eed49883324213b4f43f4",
+    "status": "verified",
+    "sourceFiles": [
+      {
+        "path": "Config.json",
+        "sha256": "e179ad0acbde2ef09981d044a1e1431631284523513e9ee31b5e9ac1e75f8446"
+      },
+      {
+        "path": "README.md",
+        "sha256": "ae882f0947a2fbf5cd1133034064f1cca7ee88410d5c8f34f25a28b2cd66d066"
+      },
+      {
+        "path": "Sort-demo.gif",
+        "sha256": "0d1a0bd31c50e423209b6550325102b2f0e9ea498505516e2064a06600b1a55a"
+      },
+      {
+        "path": "Sort-demo.mp4",
+        "sha256": "c1f3f18983ac9481ac6ffd786c4d1922fc6d2e157757478a475c2382e4efade4"
+      },
+      {
+        "path": "sort.js",
+        "sha256": "90b3ff75f32520727351679e4f885bc3cfc45e7a2c5dfe08790cc6d85572dcf1"
+      },
+      {
+        "path": "sort.png",
+        "sha256": "af48473128e847fb10f4e204dae3eb33f48b90a835abf2b4eb96a38c546ee6f4"
+      }
+    ],
+    "reason": "Real TextEdit replacement passed; see text-gui-results.json."
+  },
+  {
+    "package": "CommaList",
+    "upstreamCommit": "a8d8d085f61fe8624b8eed49883324213b4f43f4",
+    "status": "verified",
+    "sourceFiles": [
+      {
+        "path": "CommaList-demo.gif",
+        "sha256": "054295b33446468c4962559f7f737e854411722aec690add9e94bf52679dc899"
+      },
+      {
+        "path": "CommaList.svg",
+        "sha256": "5d831fbf0a46cc27e1df706cdaef1b31ec87919eca98207d473b8e2275a6b4eb"
+      },
+      {
+        "path": "Config.json",
+        "sha256": "beaef0741361d7f717994dd62174e0acfcbfbe5463094e8eed781202f3385e63"
+      },
+      {
+        "path": "Readme.md",
+        "sha256": "b42d4bdf314b1f2927491c0c2ff69223a31a5cdf00335e939fb60cbc83b4d4cd"
+      },
+      {
+        "path": "comma-list.js",
+        "sha256": "e6d6d9dd28b3f67adf11871c9c4adb27c492ddc507f2d4deafa65f8f86217559"
+      },
+      {
+        "path": "comma-list.ts",
+        "sha256": "4447185d39e013fa9ddaefbb85dd28862b4c360b5afa0c95b06d7079d88311b9"
+      }
+    ],
+    "reason": "Real TextEdit replacement passed; see text-gui-results.json."
+  },
+  {
+    "package": "FullHalfWidth",
+    "upstreamCommit": "a8d8d085f61fe8624b8eed49883324213b4f43f4",
+    "status": "verified",
+    "sourceFiles": [
+      {
+        "path": "Config.plist",
+        "sha256": "fdc5223c0706034275257aa9e192dcb724716ec557b20b517bbc440be2826d9d"
+      },
+      {
+        "path": "FullHalfWidth.png",
+        "sha256": "ee8bb41666743354c4c5f6388777746ee3d8197e275350f0cd80fd4d917cae1c"
+      },
+      {
+        "path": "README.md",
+        "sha256": "1a4ba8e0db2bad0b2db833bc867a2f835dddeb740e8b46189070165a50952717"
+      },
+      {
+        "path": "full.pl",
+        "sha256": "d2f68bb058fddfa15659bb612de69cf5eb1facd810cf46ac67f7ef096366934f"
+      },
+      {
+        "path": "full.png",
+        "sha256": "212a056dd1607c84f46f5c5c5f7f696dc244a059cafac405eab867607ea36a71"
+      },
+      {
+        "path": "half.pl",
+        "sha256": "0b295fc102ecd2fc08ecda86851d053645f2b96a0cb4e3b27e264ed8b1d5bc12"
+      },
+      {
+        "path": "half.png",
+        "sha256": "4c6c9be2f3aa0baf98b141f0e35bf4ddc4944f5a6d6e00859f33c97f03f3d03c"
+      }
+    ],
+    "reason": "Real TextEdit replacement passed; see text-gui-results.json."
+  },
+  {
+    "package": "GoogleImages",
+    "upstreamCommit": "a8d8d085f61fe8624b8eed49883324213b4f43f4",
+    "status": "verified",
+    "sourceFiles": [
+      {
+        "path": "Config.plist",
+        "sha256": "fdd87b558f990e07e159d7a7e8c9bca080ae9b1a00285306c3f93993bec0c921"
+      },
+      {
+        "path": "GoogleImages-demo.gif",
+        "sha256": "0d8bbe75cdc607cb105b7fb5992f5b6adb7a4fd1ffb7ebf222ddc9cc4b25f44a"
+      },
+      {
+        "path": "README.md",
+        "sha256": "8d45756af85f857ac34630438d6b3a53c7d6e58a319acaaceb698508f6e4dd02"
+      },
+      {
+        "path": "gimages.png",
+        "sha256": "88b4e0fe2693e0e3fdd175467b20cf572c3883629d582960198ca0da71872344"
+      }
+    ],
+    "reason": "Images results for red panda, including Wikipedia and National Geographic."
+  },
+  {
+    "package": "MDNWebDocs",
+    "upstreamCommit": "a8d8d085f61fe8624b8eed49883324213b4f43f4",
+    "status": "blocked",
+    "sourceFiles": [
+      {
+        "path": "Config.yaml",
+        "sha256": "cdf79aedb70a764359565c846ca51da36b1244b652bad264d1631c42854a71bb"
+      }
+    ],
+    "reason": "Search page opened but no actual result list was visible."
+  },
+  {
+    "package": "PubMed",
+    "upstreamCommit": "a8d8d085f61fe8624b8eed49883324213b4f43f4",
+    "status": "verified",
+    "sourceFiles": [
+      {
+        "path": "Config.plist",
+        "sha256": "e83b068884e0dc817646676498b70a3e37c59c2d32c1d7405030ce68df982a9a"
+      },
+      {
+        "path": "pubmedIcon.png",
+        "sha256": "799fc776f7e673bd7f6595151246af19f016881b1af46b069584c6bea410a9ca"
+      }
+    ],
+    "reason": "Search results for cancer with article listings."
+  },
+  {
+    "package": "IMDb",
+    "upstreamCommit": "a8d8d085f61fe8624b8eed49883324213b4f43f4",
+    "status": "verified",
+    "sourceFiles": [
+      {
+        "path": "Config.yaml",
+        "sha256": "986e3e40df6e091db50afdb17261beea57fad2b571c9659fd3da6109c03c8171"
+      },
+      {
+        "path": "imdb.svg",
+        "sha256": "c38de90b7ce2e316d7d34a49b560dad2cdc8d57e229b4cae9467f04645bf8875"
+      }
+    ],
+    "reason": "Inception (2010) and related title results. Default www.imdb.com tested; IMDbPro not tested."
+  },
+  {
+    "package": "JD",
+    "upstreamCommit": "a8d8d085f61fe8624b8eed49883324213b4f43f4",
+    "status": "blocked",
+    "sourceFiles": [
+      {
+        "path": "Config.plist",
+        "sha256": "a5e5aa1b110489ab22ae9cb4fae282376553551b58b8b8828e3a841a9b70b2c2"
+      },
+      {
+        "path": "README.md",
+        "sha256": "fe6027f0d4e46503355dd3b987c5cbc7373ea6146c915e2de46c1c57d45488d8"
+      },
+      {
+        "path": "jd-dog.png",
+        "sha256": "df38fcbecab36b0a01c0f39eb2b1bdf11c6b71ac06854271f5981b0150c7aeca"
+      }
+    ],
+    "reason": "Redirected to login; no authenticated search acceptance."
+  },
+  {
+    "package": "Taobao",
+    "upstreamCommit": "a8d8d085f61fe8624b8eed49883324213b4f43f4",
+    "status": "blocked",
+    "sourceFiles": [
+      {
+        "path": "Config.plist",
+        "sha256": "fd25ef3d34bc23fdebf7d018ae688d7d9153946073db427e7fdaa081f53dbb94"
+      },
+      {
+        "path": "Taobaoicon.png",
+        "sha256": "7b363fbf8c138ce40a80ef010cb3f5c9188a4f1931317f62cb8197d42951c273"
+      }
+    ],
+    "reason": "URL opened, but browser tool site-safety policy denied page observation; no workaround attempted."
+  },
+  {
+    "package": "Amazon",
+    "upstreamCommit": "a8d8d085f61fe8624b8eed49883324213b4f43f4",
+    "status": "verified",
+    "sourceFiles": [
+      {
+        "path": "Config.json",
+        "sha256": "e9bd3346e3191ec30f70d9b9c3891c5733de7654b3ef88cd17692206fe8c6a3d"
+      },
+      {
+        "path": "Readme.md",
+        "sha256": "6e4ad7109eab36f27be45b214db0f112285ee29fd945e104b75d4f969fccab5c"
+      },
+      {
+        "path": "amazon.svg",
+        "sha256": "27b9d8444cf6953a231bdc1ea7f0797c00013cf4da40045ef3e40e47fb7d0a33"
+      }
+    ],
+    "reason": "Keyboard result count and product listings. Default amazon.com tested; UK option not tested."
+  },
+  {
+    "package": "Ebay",
+    "upstreamCommit": "a8d8d085f61fe8624b8eed49883324213b4f43f4",
+    "status": "verified",
+    "sourceFiles": [
+      {
+        "path": "Config.plist",
+        "sha256": "ec583b67038df1960b406db3e44170c88d8b07f5abe6cfdebf3d498554b85d6b"
+      },
+      {
+        "path": "ebay-wide.png",
+        "sha256": "9d0f206031ea9da49a04e2d3832e3bbe39c0a1a2a4c08c19fe672b96d9603675"
+      },
+      {
+        "path": "ebay.png",
+        "sha256": "c830dac565fc64443ef7507baf0c746f5521e2767f69fe0f67377f85ecb68054"
+      }
+    ],
+    "reason": "Keyboard result count and item listings. Default ebay.com tested; other regional options not tested."
+  },
+  {
+    "package": "Goodreads",
+    "upstreamCommit": "a8d8d085f61fe8624b8eed49883324213b4f43f4",
+    "status": "verified",
+    "sourceFiles": [
+      {
+        "path": "Config.plist",
+        "sha256": "cc5c9f1cc81531a61e3e632e11a5c7e07017eb533e6567eec3a116978e6b512d"
+      },
+      {
+        "path": "README.md",
+        "sha256": "a984d4c82762f93231b624066c8cd47f8916f0bee8e1dcece9d8b49176525e38"
+      },
+      {
+        "path": "goodreads.png",
+        "sha256": "aa80f219be829383d5b8cfde5cf8332300ca09933d9726b16c6386e7af7eaa10"
+      }
+    ],
+    "reason": "Dune and Dune series book listings."
+  },
+  {
+    "package": "Ecosia",
+    "upstreamCommit": "a8d8d085f61fe8624b8eed49883324213b4f43f4",
+    "status": "blocked",
+    "sourceFiles": [
+      {
+        "path": "Config.plist",
+        "sha256": "4ed8d4c86d5e905647dafb7a76381b0478ea891c5266c46e958900c395c145f4"
+      },
+      {
+        "path": "ecosia.png",
+        "sha256": "089c1e73f68d5bba342c997a4266f67a45e07b77b49ab361285e12963bb7007c"
+      }
+    ],
+    "reason": "Redirected to Bing home without the selected query."
+  },
+  {
+    "package": "StartPage",
+    "upstreamCommit": "a8d8d085f61fe8624b8eed49883324213b4f43f4",
+    "status": "verified",
+    "sourceFiles": [
+      {
+        "path": "Config.plist",
+        "sha256": "abd047113bbdbcc7f49201263e7440726d4ae4a008cb6f420f03d7f1e6d71a45"
+      },
+      {
+        "path": "sp.png",
+        "sha256": "7bd1e4e44176fd8e537e6736572b2b90258c068f097e60aeffd8d092a06d64cc"
+      }
+    ],
+    "reason": "macOS web results including Apple and Wikipedia."
+  },
+  {
+    "package": "UrbanDictionary",
+    "upstreamCommit": "a8d8d085f61fe8624b8eed49883324213b4f43f4",
+    "status": "verified",
+    "sourceFiles": [
+      {
+        "path": "Config.plist",
+        "sha256": "68cbe00697f4a0867802d7758272ac7601a7e989a56c685369d47abf9f6321ff"
+      },
+      {
+        "path": "README.md",
+        "sha256": "82ee9cc2a2dd786ef3e635fb9e99b05f310f360baccca5f840743cd5746b0082"
+      },
+      {
+        "path": "ud.png",
+        "sha256": "acb45af31bb2086971d28a5abb447937e02b781eb6844af864895b249e5566af"
+      }
+    ],
+    "reason": "hello definition entries."
+  },
+  {
+    "package": "WordCount",
+    "upstreamCommit": "a8d8d085f61fe8624b8eed49883324213b4f43f4",
+    "status": "blocked",
+    "sourceFiles": [
+      {
+        "path": "Config.plist",
+        "sha256": "b057f035e7cb3fe1f14b2e4f076156716e3da6ce6ff8b73cacaa8d55d2af3cf7"
+      }
+    ],
+    "reason": "Production parser rejects unsupported display token."
+  },
+  {
+    "package": "Bear",
+    "upstreamCommit": "a8d8d085f61fe8624b8eed49883324213b4f43f4",
+    "status": "blocked",
+    "sourceFiles": [
+      {
+        "path": "Config.plist",
+        "sha256": "f03bf0e15e6222ce987c13b65ed76a319e1ec735cfec028235adbd87c95e93dd"
+      },
+      {
+        "path": "bear.png",
+        "sha256": "e6959daa56816e2d785ed7200b4c25c8a80793eee34e9a5027639543acb661d1"
+      }
+    ],
+    "reason": "Production parser rejects unsupported macOS Service action."
+  },
+  {
+    "package": "Drafts",
+    "upstreamCommit": "a8d8d085f61fe8624b8eed49883324213b4f43f4",
+    "status": "blocked",
+    "sourceFiles": [
+      {
+        "path": "Config.plist",
+        "sha256": "d878716f76f2a6116e2b5c84155b97bf6a05b1ece420f4138819281c41da4e09"
+      },
+      {
+        "path": "Drafts.png",
+        "sha256": "e2f62018ef170312c4cb97ccc6d8cb522210eea6117da142895b1bda828aba50"
+      }
+    ],
+    "reason": "Production parser rejects unsupported macOS Service action."
+  },
+  {
+    "package": "Reminders",
+    "upstreamCommit": "a8d8d085f61fe8624b8eed49883324213b4f43f4",
+    "status": "blocked",
+    "sourceFiles": [
+      {
+        "path": "Config.applescript",
+        "sha256": "2cc9c8b40bb0e273d8897c685801a3f38851cefa8fbdbd3842a64494bccb2b99"
+      },
+      {
+        "path": "Reminders.png",
+        "sha256": "afc601fdfe50ee0a7f53eb2293c50a03090220987546a6515d2a5838b1f14829"
+      }
+    ],
+    "reason": "Production parser cannot find a supported configuration."
+  },
+  {
+    "package": "ChatGPTWebsite",
+    "upstreamCommit": "a8d8d085f61fe8624b8eed49883324213b4f43f4",
+    "status": "blocked",
+    "sourceFiles": [
+      {
+        "path": "Config.ts",
+        "sha256": "1883575a1960583890501ca3436b3b048711046db803e6c260901c413bfce024"
+      },
+      {
+        "path": "Readme.md",
+        "sha256": "4f8357f67bf4747d04abb96df3fa0589ccfc26d9a278188435164595d80fb8cb"
+      },
+      {
+        "path": "demo.mp4",
+        "sha256": "25edf7eb7053ab37ecabb36b00f44ada53cec59fc727738f369c3ff9f1f307bb"
+      }
+    ],
+    "reason": "Production parser rejects TypeScript entry."
+  }
+]

@@ -1,0 +1,82 @@
+[
+  {
+    "package": "Capitalize.popclipext",
+    "archiveSHA256": "bde0a429e87c7ef849bf5a9ecfa5c56142599e4f6ca48f79563ce17d4708c649",
+    "installedTreeMatchesSource": true
+  },
+  {
+    "package": "SentenceCase.popclipext",
+    "archiveSHA256": "ecbec9317a05a8bd32a666674f502803e91c4b7348a4223b0a57661866be0bb8",
+    "installedTreeMatchesSource": true
+  },
+  {
+    "package": "JoinLines.popclipext",
+    "archiveSHA256": "bbcd92abaf3fac4b52382f9093cce6bc004831ddef5652b673d9e982e9ac8f2a",
+    "installedTreeMatchesSource": true
+  },
+  {
+    "package": "RemoveSpaces.popclipext",
+    "archiveSHA256": "f0c79684510fb2dc3441ff413bd5394d23a64c6baa4c489ac022e9d458b300ed",
+    "installedTreeMatchesSource": true
+  },
+  {
+    "package": "Reverse.popclipext",
+    "archiveSHA256": "4ab8d5a47177c67051b83744615833da780f8c8a30194a1a2cb02d5543f9c6ff",
+    "installedTreeMatchesSource": true
+  },
+  {
+    "package": "Sort.popclipext",
+    "archiveSHA256": "70da679bcc78459c1074dbc4fc6bbb14f4b3541216fa1540c52c2c8216b79db9",
+    "installedTreeMatchesSource": true
+  },
+  {
+    "package": "CommaList.popclipext",
+    "archiveSHA256": "fd9c09a96ed2b7d698b6f50d077c3b2679198eb2778e323c496ce9de8a2681ea",
+    "installedTreeMatchesSource": true
+  },
+  {
+    "package": "FullHalfWidth.popclipext",
+    "archiveSHA256": "782e08ee71be51cd73a97f333250a7175b7c36914268c90a02856bb9f35fe233",
+    "installedTreeMatchesSource": true
+  },
+  {
+    "package": "GoogleImages.popclipext",
+    "archiveSHA256": "f51e1f0daaaeaec951e52dbff17e57a45c712444d85c5174d09ac2b18f2e8dde",
+    "installedTreeMatchesSource": true
+  },
+  {
+    "package": "PubMed.popclipext",
+    "archiveSHA256": "d79ec6bac4734c6c1fcd1c4fda182b5057ef90d5d94191951a6afb15c18404be",
+    "installedTreeMatchesSource": true
+  },
+  {
+    "package": "IMDb.popclipext",
+    "archiveSHA256": "281d614a9275416c660042bd2777820640e89c60514f08c6493850a452ad2bf8",
+    "installedTreeMatchesSource": true
+  },
+  {
+    "package": "Amazon.popclipext",
+    "archiveSHA256": "75798eb182705e70098170dbe5eec1feb1bd078747f03bbeb51dbe6a3537eaa9",
+    "installedTreeMatchesSource": true
+  },
+  {
+    "package": "Ebay.popclipext",
+    "archiveSHA256": "f88a4c67177e91fbcd9db0a182676c96733ec312f40d627d52503bc29c71fab6",
+    "installedTreeMatchesSource": true
+  },
+  {
+    "package": "Goodreads.popclipext",
+    "archiveSHA256": "792e87971cc91e3e87a0fb86ad29766bcb378549df8028cc029a12f7553b9387",
+    "installedTreeMatchesSource": true
+  },
+  {
+    "package": "StartPage.popclipext",
+    "archiveSHA256": "1e0be673d900376ccaa058e3680df8f524c571ff8372e6016b6754ca4c29ce1c",
+    "installedTreeMatchesSource": true
+  },
+  {
+    "package": "UrbanDictionary.popclipext",
+    "archiveSHA256": "1a9b9aacb9fcc66df31ead68bd862dfc4348963c57e6726a0bfba8863a7a7a57",
+    "installedTreeMatchesSource": true
+  }
+]

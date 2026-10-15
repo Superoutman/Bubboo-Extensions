@@ -1,0 +1,51 @@
+[
+  {
+    "package": "WordCount",
+    "actions": [
+      {
+        "title": "{popclip wordcount} Words",
+        "supported": false,
+        "type": "unsupported"
+      }
+    ]
+  },
+  {
+    "actions": [
+      {
+        "title": "Bear",
+        "type": "unsupported",
+        "supported": false
+      }
+    ],
+    "package": "Bear"
+  },
+  {
+    "package": "Drafts",
+    "actions": [
+      {
+        "title": "Send to Drafts",
+        "supported": false,
+        "type": "unsupported"
+      },
+      {
+        "type": "unsupported",
+        "title": "Send to Drafts",
+        "supported": false
+      }
+    ]
+  },
+  {
+    "package": "Reminders",
+    "error": "missingConfiguration"
+  },
+  {
+    "package": "ChatGPTWebsite",
+    "actions": [
+      {
+        "title": "ChatGPT Website",
+        "type": "unsupported",
+        "supported": false
+      }
+    ]
+  }
+]

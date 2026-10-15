@@ -1,0 +1,10 @@
+{
+  "repository": "https://github.com/pilotmoon/PopClip-Extensions",
+  "commit": "a8d8d085f61fe8624b8eed49883324213b4f43f4",
+  "path": "source/FullHalfWidth.popclipext",
+  "author": "Lucifr; Nicholas Moore and contributors",
+  "changes": [
+    "Retain original source and attribution; omit demonstration media from the distributable package.",
+    "Preserve both Perl conversion scripts unchanged; explicitly invoke system Perl from supported Shell actions. Use a separate Bubboo-maintained identifier."
+  ]
+}

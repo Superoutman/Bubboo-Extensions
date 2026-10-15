@@ -1,0 +1,99 @@
+[
+  {
+    "package": "GoogleImages",
+    "action": "Google Images",
+    "input": "red panda",
+    "openedURL": "https://www.google.com/search?q=red+panda&udm=2",
+    "status": "PASS",
+    "visibleResult": "Images results for red panda, including Wikipedia and National Geographic."
+  },
+  {
+    "package": "MDNWebDocs",
+    "action": "MDN Web Docs",
+    "input": "Array map",
+    "openedURL": "https://developer.mozilla.org/zh-CN/search?q=Array%20map",
+    "status": "BLOCKED",
+    "visibleResult": "Search page opened but no actual result list was visible."
+  },
+  {
+    "package": "PubMed",
+    "action": "PubMed",
+    "input": "cancer",
+    "openedURL": "https://pubmed.ncbi.nlm.nih.gov/?term=cancer",
+    "status": "PASS",
+    "visibleResult": "Search results for cancer with article listings."
+  },
+  {
+    "package": "IMDb",
+    "action": "IMDb",
+    "input": "Inception",
+    "openedURL": "https://www.imdb.com/find/?q=Inception&s=all",
+    "status": "PASS",
+    "visibleResult": "Inception (2010) and related title results. Default www.imdb.com tested; IMDbPro not tested."
+  },
+  {
+    "package": "JD",
+    "action": "JD",
+    "input": "键盘",
+    "openedURL": "https://passport.jd.com/new/login.aspx",
+    "status": "BLOCKED",
+    "visibleResult": "Redirected to login; no authenticated search acceptance."
+  },
+  {
+    "package": "Taobao",
+    "action": "Taobao",
+    "input": "键盘",
+    "openedURL": "https://s.taobao.com/search?q=%E9%94%AE%E7%9B%98",
+    "status": "BLOCKED",
+    "visibleResult": "URL opened, but browser tool site-safety policy denied page observation; no workaround attempted."
+  },
+  {
+    "package": "Amazon",
+    "action": "Amazon",
+    "input": "keyboard",
+    "openedURL": "https://www.amazon.com/s?k=keyboard",
+    "status": "PASS",
+    "visibleResult": "Keyboard result count and product listings. Default amazon.com tested; UK option not tested."
+  },
+  {
+    "package": "Ebay",
+    "action": "Ebay",
+    "input": "keyboard",
+    "openedURL": "https://www.ebay.com/sch/i.html?_nkw=keyboard",
+    "status": "PASS",
+    "visibleResult": "Keyboard result count and item listings. Default ebay.com tested; other regional options not tested."
+  },
+  {
+    "package": "Goodreads",
+    "action": "Goodreads",
+    "input": "Dune",
+    "openedURL": "https://www.goodreads.com/search?q=Dune",
+    "status": "PASS",
+    "visibleResult": "Dune and Dune series book listings."
+  },
+  {
+    "package": "Ecosia",
+    "action": "Ecosia",
+    "input": "swift language",
+    "openedURL": "https://www.ecosia.org/search?q=swift%20language",
+    "status": "BLOCKED",
+    "visibleResult": "Redirected to Bing home without the selected query.",
+    "finalURL": "https://www.bing.com/"
+  },
+  {
+    "package": "StartPage",
+    "action": "StartPage",
+    "input": "macOS",
+    "openedURL": "https://www.startpage.com/sp/search?query=macOS",
+    "status": "PASS",
+    "visibleResult": "macOS web results including Apple and Wikipedia."
+  },
+  {
+    "package": "UrbanDictionary",
+    "action": "Urban Dictionary",
+    "input": "hello",
+    "openedURL": "https://www.urbandictionary.com/define.php?term=hello",
+    "status": "PASS",
+    "visibleResult": "hello definition entries."
+  }
+]

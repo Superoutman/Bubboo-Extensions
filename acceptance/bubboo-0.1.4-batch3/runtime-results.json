@@ -1,0 +1,66 @@
+[
+  {
+    "package": "Capitalize",
+    "input": "hello ÉLAN 中文 😀",
+    "expected": "Hello Élan 中文 😀",
+    "actual": "Hello Élan 中文 😀",
+    "error": null,
+    "passed": true
+  },
+  {
+    "package": "SentenceCase",
+    "input": "HELLO WORLD. how ARE YOU? 中文 😀",
+    "expected": "Hello world. How are you? 中文 😀",
+    "actual": "Hello world. How are you? 中文 😀",
+    "error": null,
+    "passed": true
+  },
+  {
+    "package": "JoinLines",
+    "input": " one\n\n two \r\n中文 😀",
+    "expected": "one two 中文 😀",
+    "actual": "one two 中文 😀",
+    "error": null,
+    "passed": true
+  },
+  {
+    "package": "RemoveSpaces",
+    "input": " a b\n中文\t😀 ",
+    "expected": "ab中文😀",
+    "actual": "ab中文😀",
+    "error": null,
+    "passed": true
+  },
+  {
+    "package": "Reverse",
+    "input": "one\n中文\n😀",
+    "expected": "😀\n中文\none",
+    "actual": "😀\n中文\none",
+    "error": null,
+    "passed": true
+  },
+  {
+    "package": "Sort",
+    "input": "item10\nitem2\nItem1",
+    "expected": "Item1\nitem2\nitem10",
+    "actual": "Item1\nitem2\nitem10",
+    "error": null,
+    "passed": true
+  },
+  {
+    "package": "CommaList",
+    "input": "one, two, 中文",
+    "expected": "one\rtwo\r中文",
+    "actual": "one\rtwo\r中文",
+    "error": null,
+    "passed": true
+  },
+  {
+    "package": "CommaList",
+    "input": "one\ntwo\n中文",
+    "expected": "one, two, 中文",
+    "actual": "one, two, 中文",
+    "error": null,
+    "passed": true
+  }
+]

@@ -412,5 +412,577 @@
       "executableSHA256": "b8a27108ca88f6af06a742686229bf28ad85757dd67e67ed4f6115312b5e6372",
       "releaseURL": "https://github.com/Superoutman/Bubboo/releases/tag/v0.1.4"
     }
+  },
+  {
+    "identifier": "com.superoutman.bubboo.extension.capitalize",
+    "name": "Capitalize Words",
+    "package": "Capitalize.popclipext",
+    "version": "0.1.0",
+    "status": "verified",
+    "reason": "Passed real import, explicit enable and toolbar execution on Bubboo 0.1.4 (5); see acceptance scope.",
+    "author": "Nicholas Moore and contributors",
+    "license": "MIT",
+    "upstream": {
+      "repository": "https://github.com/pilotmoon/PopClip-Extensions",
+      "commit": "a8d8d085f61fe8624b8eed49883324213b4f43f4",
+      "path": "source/Capitalize.popclipext",
+      "author": "Nicholas Moore and contributors",
+      "changes": [
+        "Retain original source and attribution; omit demonstration media from the distributable package.",
+        "Add a PopClip Config.js adapter for Bubboo 0.1.4; preserve the original JSON manifest under upstream/. Reuse original transformation logic; explicitly deliver returned text and guard blank-line input where needed.",
+        "Use a separate Bubboo-maintained identifier. Host regex visibility and icon rendering are not claimed to be identical to PopClip."
+      ]
+    },
+    "summary": "单词首字母大写",
+    "minimumBubbooVersion": "0.1.4",
+    "acceptance": "acceptance/bubboo-0.1.4-batch3/README.md",
+    "testedBubbooBuild": {
+      "version": "0.1.4",
+      "buildNumber": "5",
+      "channel": "stable",
+      "executableSHA256": "b8a27108ca88f6af06a742686229bf28ad85757dd67e67ed4f6115312b5e6372",
+      "releaseURL": "https://github.com/Superoutman/Bubboo/releases/tag/v0.1.4"
+    }
+  },
+  {
+    "identifier": "com.superoutman.bubboo.extension.sentencecase",
+    "name": "Sentence Case",
+    "package": "SentenceCase.popclipext",
+    "version": "0.1.0",
+    "status": "verified",
+    "reason": "Passed real import, explicit enable and toolbar execution on Bubboo 0.1.4 (5); see acceptance scope.",
+    "author": "Nicholas Moore and contributors",
+    "license": "MIT",
+    "upstream": {
+      "repository": "https://github.com/pilotmoon/PopClip-Extensions",
+      "commit": "a8d8d085f61fe8624b8eed49883324213b4f43f4",
+      "path": "source/SentenceCase.popclipext",
+      "author": "Nicholas Moore and contributors",
+      "changes": [
+        "Retain original source and attribution; omit demonstration media from the distributable package.",
+        "Add a PopClip Config.js adapter for Bubboo 0.1.4; preserve the original JSON manifest under upstream/. Reuse original transformation logic; explicitly deliver returned text and guard blank-line input where needed.",
+        "Use a separate Bubboo-maintained identifier. Host regex visibility and icon rendering are not claimed to be identical to PopClip."
+      ]
+    },
+    "summary": "句首大写",
+    "minimumBubbooVersion": "0.1.4",
+    "acceptance": "acceptance/bubboo-0.1.4-batch3/README.md",
+    "testedBubbooBuild": {
+      "version": "0.1.4",
+      "buildNumber": "5",
+      "channel": "stable",
+      "executableSHA256": "b8a27108ca88f6af06a742686229bf28ad85757dd67e67ed4f6115312b5e6372",
+      "releaseURL": "https://github.com/Superoutman/Bubboo/releases/tag/v0.1.4"
+    }
+  },
+  {
+    "identifier": "com.superoutman.bubboo.extension.joinlines",
+    "name": "Join Lines",
+    "package": "JoinLines.popclipext",
+    "version": "0.1.0",
+    "status": "verified",
+    "reason": "Passed real import, explicit enable and toolbar execution on Bubboo 0.1.4 (5); see acceptance scope.",
+    "author": "Nicholas Moore and contributors",
+    "license": "MIT",
+    "upstream": {
+      "repository": "https://github.com/pilotmoon/PopClip-Extensions",
+      "commit": "a8d8d085f61fe8624b8eed49883324213b4f43f4",
+      "path": "source/JoinLines.popclipext",
+      "author": "Nicholas Moore and contributors",
+      "changes": [
+        "Retain original source and attribution; omit demonstration media from the distributable package.",
+        "Add a PopClip Config.js adapter for Bubboo 0.1.4; preserve the original JSON manifest under upstream/. Reuse original transformation logic; explicitly deliver returned text and guard blank-line input where needed.",
+        "Use a separate Bubboo-maintained identifier. Host regex visibility and icon rendering are not claimed to be identical to PopClip."
+      ]
+    },
+    "summary": "合并多行",
+    "minimumBubbooVersion": "0.1.4",
+    "acceptance": "acceptance/bubboo-0.1.4-batch3/README.md",
+    "testedBubbooBuild": {
+      "version": "0.1.4",
+      "buildNumber": "5",
+      "channel": "stable",
+      "executableSHA256": "b8a27108ca88f6af06a742686229bf28ad85757dd67e67ed4f6115312b5e6372",
+      "releaseURL": "https://github.com/Superoutman/Bubboo/releases/tag/v0.1.4"
+    }
+  },
+  {
+    "identifier": "com.superoutman.bubboo.extension.removespaces",
+    "name": "Remove Spaces",
+    "package": "RemoveSpaces.popclipext",
+    "version": "0.1.0",
+    "status": "verified",
+    "reason": "Passed real import, explicit enable and toolbar execution on Bubboo 0.1.4 (5); see acceptance scope.",
+    "author": "Nicholas Moore and contributors",
+    "license": "MIT",
+    "upstream": {
+      "repository": "https://github.com/pilotmoon/PopClip-Extensions",
+      "commit": "a8d8d085f61fe8624b8eed49883324213b4f43f4",
+      "path": "source/RemoveSpaces.popclipext",
+      "author": "Nicholas Moore and contributors",
+      "changes": [
+        "Retain original source and attribution; omit demonstration media from the distributable package.",
+        "Add a PopClip Config.js adapter for Bubboo 0.1.4; preserve the original JSON manifest under upstream/. Reuse original transformation logic; explicitly deliver returned text and guard blank-line input where needed.",
+        "Use a separate Bubboo-maintained identifier. Host regex visibility and icon rendering are not claimed to be identical to PopClip."
+      ]
+    },
+    "summary": "删除空白",
+    "minimumBubbooVersion": "0.1.4",
+    "acceptance": "acceptance/bubboo-0.1.4-batch3/README.md",
+    "testedBubbooBuild": {
+      "version": "0.1.4",
+      "buildNumber": "5",
+      "channel": "stable",
+      "executableSHA256": "b8a27108ca88f6af06a742686229bf28ad85757dd67e67ed4f6115312b5e6372",
+      "releaseURL": "https://github.com/Superoutman/Bubboo/releases/tag/v0.1.4"
+    }
+  },
+  {
+    "identifier": "com.superoutman.bubboo.extension.reverse",
+    "name": "Reverse",
+    "package": "Reverse.popclipext",
+    "version": "0.1.0",
+    "status": "verified",
+    "reason": "Passed real import, explicit enable and toolbar execution on Bubboo 0.1.4 (5); see acceptance scope.",
+    "author": "Nicholas Moore and contributors",
+    "license": "MIT",
+    "upstream": {
+      "repository": "https://github.com/pilotmoon/PopClip-Extensions",
+      "commit": "a8d8d085f61fe8624b8eed49883324213b4f43f4",
+      "path": "source/Reverse.popclipext",
+      "author": "Nicholas Moore and contributors",
+      "changes": [
+        "Retain original source and attribution; omit demonstration media from the distributable package.",
+        "Add a PopClip Config.js adapter for Bubboo 0.1.4; preserve the original JSON manifest under upstream/. Reuse original transformation logic; explicitly deliver returned text and guard blank-line input where needed.",
+        "Use a separate Bubboo-maintained identifier. Host regex visibility and icon rendering are not claimed to be identical to PopClip."
+      ]
+    },
+    "summary": "反转行序",
+    "minimumBubbooVersion": "0.1.4",
+    "acceptance": "acceptance/bubboo-0.1.4-batch3/README.md",
+    "testedBubbooBuild": {
+      "version": "0.1.4",
+      "buildNumber": "5",
+      "channel": "stable",
+      "executableSHA256": "b8a27108ca88f6af06a742686229bf28ad85757dd67e67ed4f6115312b5e6372",
+      "releaseURL": "https://github.com/Superoutman/Bubboo/releases/tag/v0.1.4"
+    }
+  },
+  {
+    "identifier": "com.superoutman.bubboo.extension.sort",
+    "name": "Sort",
+    "package": "Sort.popclipext",
+    "version": "0.1.0",
+    "status": "verified",
+    "reason": "Passed real import, explicit enable and toolbar execution on Bubboo 0.1.4 (5); see acceptance scope.",
+    "author": "Agassi; Nicholas Moore and contributors",
+    "license": "MIT",
+    "upstream": {
+      "repository": "https://github.com/pilotmoon/PopClip-Extensions",
+      "commit": "a8d8d085f61fe8624b8eed49883324213b4f43f4",
+      "path": "source/Sort.popclipext",
+      "author": "Agassi; Nicholas Moore and contributors",
+      "changes": [
+        "Retain original source and attribution; omit demonstration media from the distributable package.",
+        "Add a PopClip Config.js adapter for Bubboo 0.1.4; preserve the original JSON manifest under upstream/. Reuse original transformation logic; explicitly deliver returned text and guard blank-line input where needed.",
+        "Use a separate Bubboo-maintained identifier. Host regex visibility and icon rendering are not claimed to be identical to PopClip."
+      ]
+    },
+    "summary": "自然排序文本行",
+    "minimumBubbooVersion": "0.1.4",
+    "acceptance": "acceptance/bubboo-0.1.4-batch3/README.md",
+    "testedBubbooBuild": {
+      "version": "0.1.4",
+      "buildNumber": "5",
+      "channel": "stable",
+      "executableSHA256": "b8a27108ca88f6af06a742686229bf28ad85757dd67e67ed4f6115312b5e6372",
+      "releaseURL": "https://github.com/Superoutman/Bubboo/releases/tag/v0.1.4"
+    }
+  },
+  {
+    "identifier": "com.superoutman.bubboo.extension.commalist",
+    "name": "Comma List",
+    "package": "CommaList.popclipext",
+    "version": "0.1.0",
+    "status": "verified",
+    "reason": "Passed real import, explicit enable and toolbar execution on Bubboo 0.1.4 (5); see acceptance scope.",
+    "author": "Nicholas Moore and contributors",
+    "license": "MIT",
+    "upstream": {
+      "repository": "https://github.com/pilotmoon/PopClip-Extensions",
+      "commit": "a8d8d085f61fe8624b8eed49883324213b4f43f4",
+      "path": "source/CommaList.popclipext",
+      "author": "Nicholas Moore and contributors",
+      "changes": [
+        "Retain original source and attribution; omit demonstration media from the distributable package.",
+        "Add a PopClip Config.js adapter for Bubboo 0.1.4; preserve the original JSON manifest under upstream/. Reuse original transformation logic; explicitly deliver returned text and guard blank-line input where needed.",
+        "Use a separate Bubboo-maintained identifier. Host regex visibility and icon rendering are not claimed to be identical to PopClip."
+      ]
+    },
+    "summary": "逗号列表与多行互转",
+    "minimumBubbooVersion": "0.1.4",
+    "acceptance": "acceptance/bubboo-0.1.4-batch3/README.md",
+    "testedBubbooBuild": {
+      "version": "0.1.4",
+      "buildNumber": "5",
+      "channel": "stable",
+      "executableSHA256": "b8a27108ca88f6af06a742686229bf28ad85757dd67e67ed4f6115312b5e6372",
+      "releaseURL": "https://github.com/Superoutman/Bubboo/releases/tag/v0.1.4"
+    }
+  },
+  {
+    "identifier": "com.superoutman.bubboo.extension.fullhalfwidth",
+    "name": "Full/Half Width",
+    "package": "FullHalfWidth.popclipext",
+    "version": "0.1.0",
+    "status": "verified",
+    "reason": "Passed real import, explicit enable and toolbar execution on Bubboo 0.1.4 (5); see acceptance scope.",
+    "author": "Lucifr; Nicholas Moore and contributors",
+    "license": "MIT",
+    "upstream": {
+      "repository": "https://github.com/pilotmoon/PopClip-Extensions",
+      "commit": "a8d8d085f61fe8624b8eed49883324213b4f43f4",
+      "path": "source/FullHalfWidth.popclipext",
+      "author": "Lucifr; Nicholas Moore and contributors",
+      "changes": [
+        "Retain original source and attribution; omit demonstration media from the distributable package.",
+        "Preserve both Perl conversion scripts unchanged; explicitly invoke system Perl from supported Shell actions. Use a separate Bubboo-maintained identifier."
+      ]
+    },
+    "summary": "全角 / 半角转换",
+    "minimumBubbooVersion": "0.1.4",
+    "acceptance": "acceptance/bubboo-0.1.4-batch3/README.md",
+    "testedBubbooBuild": {
+      "version": "0.1.4",
+      "buildNumber": "5",
+      "channel": "stable",
+      "executableSHA256": "b8a27108ca88f6af06a742686229bf28ad85757dd67e67ed4f6115312b5e6372",
+      "releaseURL": "https://github.com/Superoutman/Bubboo/releases/tag/v0.1.4"
+    }
+  },
+  {
+    "identifier": "com.pilotmoon.popclip.extension.google-images",
+    "name": "Google Images",
+    "package": "GoogleImages.popclipext",
+    "version": "0.1.0",
+    "status": "verified",
+    "reason": "Passed real import, explicit enable and toolbar execution on Bubboo 0.1.4 (5); see acceptance scope.",
+    "author": "Nicholas Moore and contributors",
+    "license": "MIT",
+    "upstream": {
+      "repository": "https://github.com/pilotmoon/PopClip-Extensions",
+      "commit": "a8d8d085f61fe8624b8eed49883324213b4f43f4",
+      "path": "source/GoogleImages.popclipext",
+      "author": "Nicholas Moore and contributors",
+      "changes": [
+        "Retain original source and attribution; omit demonstration media from the distributable package.",
+        "Runtime configuration unchanged."
+      ]
+    },
+    "summary": "Google Images 检索",
+    "minimumBubbooVersion": "0.1.4",
+    "acceptance": "acceptance/bubboo-0.1.4-batch3/README.md",
+    "testedBubbooBuild": {
+      "version": "0.1.4",
+      "buildNumber": "5",
+      "channel": "stable",
+      "executableSHA256": "b8a27108ca88f6af06a742686229bf28ad85757dd67e67ed4f6115312b5e6372",
+      "releaseURL": "https://github.com/Superoutman/Bubboo/releases/tag/v0.1.4"
+    }
+  },
+  {
+    "identifier": "com.superoutman.bubboo.extension.mdnwebdocs",
+    "name": "MDN Web Docs",
+    "package": "MDNWebDocs.popclipext",
+    "version": "0.1.0",
+    "status": "blocked",
+    "reason": "Search page opened but no actual result list was visible.",
+    "author": "Nicholas Moore and contributors",
+    "license": "MIT",
+    "upstream": {
+      "repository": "https://github.com/pilotmoon/PopClip-Extensions",
+      "commit": "a8d8d085f61fe8624b8eed49883324213b4f43f4",
+      "path": "source/MDNWebDocs.popclipext",
+      "author": "Nicholas Moore and contributors",
+      "changes": [
+        "Retain original source and attribution; omit demonstration media from the distributable package.",
+        "Add a supported PopClip plist URL adapter, preserve original manifest under upstream/, use HTTPS and a separate Bubboo identifier."
+      ]
+    },
+    "summary": "MDN Web Docs 检索"
+  },
+  {
+    "identifier": "com.superoutman.bubboo.extension.pubmed",
+    "name": "PubMed",
+    "package": "PubMed.popclipext",
+    "version": "0.1.0",
+    "status": "verified",
+    "reason": "Passed real import, explicit enable and toolbar execution on Bubboo 0.1.4 (5); see acceptance scope.",
+    "author": "Pierre Wizla; Nicholas Moore and contributors",
+    "license": "MIT",
+    "upstream": {
+      "repository": "https://github.com/pilotmoon/PopClip-Extensions",
+      "commit": "a8d8d085f61fe8624b8eed49883324213b4f43f4",
+      "path": "source/PubMed.popclipext",
+      "author": "Pierre Wizla; Nicholas Moore and contributors",
+      "changes": [
+        "Retain original source and attribution; omit demonstration media from the distributable package.",
+        "Use HTTPS (PubMed uses its current canonical search host); preserve original manifest under upstream/ and use a separate Bubboo identifier."
+      ]
+    },
+    "summary": "PubMed 检索",
+    "minimumBubbooVersion": "0.1.4",
+    "acceptance": "acceptance/bubboo-0.1.4-batch3/README.md",
+    "testedBubbooBuild": {
+      "version": "0.1.4",
+      "buildNumber": "5",
+      "channel": "stable",
+      "executableSHA256": "b8a27108ca88f6af06a742686229bf28ad85757dd67e67ed4f6115312b5e6372",
+      "releaseURL": "https://github.com/Superoutman/Bubboo/releases/tag/v0.1.4"
+    }
+  },
+  {
+    "identifier": "com.superoutman.bubboo.extension.imdb",
+    "name": "IMDb",
+    "package": "IMDb.popclipext",
+    "version": "0.1.0",
+    "status": "verified",
+    "reason": "Passed real import, explicit enable and toolbar execution on Bubboo 0.1.4 (5); see acceptance scope.",
+    "author": "Nicholas Moore and contributors",
+    "license": "MIT",
+    "upstream": {
+      "repository": "https://github.com/pilotmoon/PopClip-Extensions",
+      "commit": "a8d8d085f61fe8624b8eed49883324213b4f43f4",
+      "path": "source/IMDb.popclipext",
+      "author": "Nicholas Moore and contributors",
+      "changes": [
+        "Retain original source and attribution; omit demonstration media from the distributable package.",
+        "Add a supported PopClip plist URL adapter, preserve original manifest under upstream/, use HTTPS and a separate Bubboo identifier."
+      ]
+    },
+    "summary": "IMDb 检索",
+    "minimumBubbooVersion": "0.1.4",
+    "acceptance": "acceptance/bubboo-0.1.4-batch3/README.md",
+    "testedBubbooBuild": {
+      "version": "0.1.4",
+      "buildNumber": "5",
+      "channel": "stable",
+      "executableSHA256": "b8a27108ca88f6af06a742686229bf28ad85757dd67e67ed4f6115312b5e6372",
+      "releaseURL": "https://github.com/Superoutman/Bubboo/releases/tag/v0.1.4"
+    }
+  },
+  {
+    "identifier": "com.superoutman.bubboo.extension.jd",
+    "name": "JD",
+    "package": "JD.popclipext",
+    "version": "0.1.0",
+    "status": "blocked",
+    "reason": "Redirected to login; no authenticated search acceptance.",
+    "author": "Qiyuan Gong; Nicholas Moore and contributors",
+    "license": "MIT",
+    "upstream": {
+      "repository": "https://github.com/pilotmoon/PopClip-Extensions",
+      "commit": "a8d8d085f61fe8624b8eed49883324213b4f43f4",
+      "path": "source/JD.popclipext",
+      "author": "Qiyuan Gong; Nicholas Moore and contributors",
+      "changes": [
+        "Retain original source and attribution; omit demonstration media from the distributable package.",
+        "Use HTTPS (PubMed uses its current canonical search host); preserve original manifest under upstream/ and use a separate Bubboo identifier."
+      ]
+    },
+    "summary": "JD 检索"
+  },
+  {
+    "identifier": "com.superoutman.bubboo.extension.taobao",
+    "name": "Taobao",
+    "package": "Taobao.popclipext",
+    "version": "0.1.0",
+    "status": "blocked",
+    "reason": "URL opened, but browser tool site-safety policy denied page observation; no workaround attempted.",
+    "author": "Qi Li; Nicholas Moore and contributors",
+    "license": "MIT",
+    "upstream": {
+      "repository": "https://github.com/pilotmoon/PopClip-Extensions",
+      "commit": "a8d8d085f61fe8624b8eed49883324213b4f43f4",
+      "path": "source/Taobao.popclipext",
+      "author": "Qi Li; Nicholas Moore and contributors",
+      "changes": [
+        "Retain original source and attribution; omit demonstration media from the distributable package.",
+        "Use HTTPS (PubMed uses its current canonical search host); preserve original manifest under upstream/ and use a separate Bubboo identifier."
+      ]
+    },
+    "summary": "Taobao 检索"
+  },
+  {
+    "identifier": "com.superoutman.bubboo.extension.amazon",
+    "name": "Amazon",
+    "package": "Amazon.popclipext",
+    "version": "0.1.0",
+    "status": "verified",
+    "reason": "Passed real import, explicit enable and toolbar execution on Bubboo 0.1.4 (5); see acceptance scope.",
+    "author": "Nicholas Moore and contributors",
+    "license": "MIT",
+    "upstream": {
+      "repository": "https://github.com/pilotmoon/PopClip-Extensions",
+      "commit": "a8d8d085f61fe8624b8eed49883324213b4f43f4",
+      "path": "source/Amazon.popclipext",
+      "author": "Nicholas Moore and contributors",
+      "changes": [
+        "Retain original source and attribution; omit demonstration media from the distributable package.",
+        "Add a supported PopClip plist URL adapter, preserve original manifest under upstream/, use HTTPS and a separate Bubboo identifier.",
+        "Limit configurable sites to amazon.com and amazon.co.uk; preserve the original country list for reference. No purchases or account actions are automated. Original icon credit: Dave Gandy, CC BY 4.0, https://creativecommons.org/licenses/by/4.0/ ."
+      ]
+    },
+    "summary": "Amazon 检索",
+    "minimumBubbooVersion": "0.1.4",
+    "acceptance": "acceptance/bubboo-0.1.4-batch3/README.md",
+    "testedBubbooBuild": {
+      "version": "0.1.4",
+      "buildNumber": "5",
+      "channel": "stable",
+      "executableSHA256": "b8a27108ca88f6af06a742686229bf28ad85757dd67e67ed4f6115312b5e6372",
+      "releaseURL": "https://github.com/Superoutman/Bubboo/releases/tag/v0.1.4"
+    }
+  },
+  {
+    "identifier": "com.superoutman.bubboo.extension.ebay",
+    "name": "Ebay",
+    "package": "Ebay.popclipext",
+    "version": "0.1.0",
+    "status": "verified",
+    "reason": "Passed real import, explicit enable and toolbar execution on Bubboo 0.1.4 (5); see acceptance scope.",
+    "author": "Nicholas Moore and contributors",
+    "license": "MIT",
+    "upstream": {
+      "repository": "https://github.com/pilotmoon/PopClip-Extensions",
+      "commit": "a8d8d085f61fe8624b8eed49883324213b4f43f4",
+      "path": "source/Ebay.popclipext",
+      "author": "Nicholas Moore and contributors",
+      "changes": [
+        "Retain original source and attribution; omit demonstration media from the distributable package.",
+        "Use HTTPS (PubMed uses its current canonical search host); preserve original manifest under upstream/ and use a separate Bubboo identifier."
+      ]
+    },
+    "summary": "Ebay 检索",
+    "minimumBubbooVersion": "0.1.4",
+    "acceptance": "acceptance/bubboo-0.1.4-batch3/README.md",
+    "testedBubbooBuild": {
+      "version": "0.1.4",
+      "buildNumber": "5",
+      "channel": "stable",
+      "executableSHA256": "b8a27108ca88f6af06a742686229bf28ad85757dd67e67ed4f6115312b5e6372",
+      "releaseURL": "https://github.com/Superoutman/Bubboo/releases/tag/v0.1.4"
+    }
+  },
+  {
+    "identifier": "com.pilotmoon.popclip.extension.goodreads",
+    "name": "Goodreads",
+    "package": "Goodreads.popclipext",
+    "version": "0.1.0",
+    "status": "verified",
+    "reason": "Passed real import, explicit enable and toolbar execution on Bubboo 0.1.4 (5); see acceptance scope.",
+    "author": "Nicholas Moore and contributors",
+    "license": "MIT",
+    "upstream": {
+      "repository": "https://github.com/pilotmoon/PopClip-Extensions",
+      "commit": "a8d8d085f61fe8624b8eed49883324213b4f43f4",
+      "path": "source/Goodreads.popclipext",
+      "author": "Nicholas Moore and contributors",
+      "changes": [
+        "Retain original source and attribution; omit demonstration media from the distributable package.",
+        "Runtime configuration unchanged."
+      ]
+    },
+    "summary": "Goodreads 检索",
+    "minimumBubbooVersion": "0.1.4",
+    "acceptance": "acceptance/bubboo-0.1.4-batch3/README.md",
+    "testedBubbooBuild": {
+      "version": "0.1.4",
+      "buildNumber": "5",
+      "channel": "stable",
+      "executableSHA256": "b8a27108ca88f6af06a742686229bf28ad85757dd67e67ed4f6115312b5e6372",
+      "releaseURL": "https://github.com/Superoutman/Bubboo/releases/tag/v0.1.4"
+    }
+  },
+  {
+    "identifier": "com.pilotmoon.popclip.extension.ecosia",
+    "name": "Ecosia",
+    "package": "Ecosia.popclipext",
+    "version": "0.1.0",
+    "status": "blocked",
+    "reason": "Redirected to Bing home without the selected query.",
+    "author": "Blubb; Nicholas Moore and contributors",
+    "license": "MIT",
+    "upstream": {
+      "repository": "https://github.com/pilotmoon/PopClip-Extensions",
+      "commit": "a8d8d085f61fe8624b8eed49883324213b4f43f4",
+      "path": "source/Ecosia.popclipext",
+      "author": "Blubb; Nicholas Moore and contributors",
+      "changes": [
+        "Retain original source and attribution; omit demonstration media from the distributable package.",
+        "Runtime configuration unchanged."
+      ]
+    },
+    "summary": "Ecosia 检索"
+  },
+  {
+    "identifier": "com.pilotmoon.popclip.extension.startpage",
+    "name": "StartPage",
+    "package": "StartPage.popclipext",
+    "version": "0.1.0",
+    "status": "verified",
+    "reason": "Passed real import, explicit enable and toolbar execution on Bubboo 0.1.4 (5); see acceptance scope.",
+    "author": "Nicholas Moore and contributors",
+    "license": "MIT",
+    "upstream": {
+      "repository": "https://github.com/pilotmoon/PopClip-Extensions",
+      "commit": "a8d8d085f61fe8624b8eed49883324213b4f43f4",
+      "path": "source/StartPage.popclipext",
+      "author": "Nicholas Moore and contributors",
+      "changes": [
+        "Retain original source and attribution; omit demonstration media from the distributable package.",
+        "Runtime configuration unchanged."
+      ]
+    },
+    "summary": "StartPage 检索",
+    "minimumBubbooVersion": "0.1.4",
+    "acceptance": "acceptance/bubboo-0.1.4-batch3/README.md",
+    "testedBubbooBuild": {
+      "version": "0.1.4",
+      "buildNumber": "5",
+      "channel": "stable",
+      "executableSHA256": "b8a27108ca88f6af06a742686229bf28ad85757dd67e67ed4f6115312b5e6372",
+      "releaseURL": "https://github.com/Superoutman/Bubboo/releases/tag/v0.1.4"
+    }
+  },
+  {
+    "identifier": "com.superoutman.bubboo.extension.urbandictionary",
+    "name": "Urban Dictionary",
+    "package": "UrbanDictionary.popclipext",
+    "version": "0.1.0",
+    "status": "verified",
+    "reason": "Passed real import, explicit enable and toolbar execution on Bubboo 0.1.4 (5); see acceptance scope.",
+    "author": "zhiyelee; Nicholas Moore and contributors",
+    "license": "MIT",
+    "upstream": {
+      "repository": "https://github.com/pilotmoon/PopClip-Extensions",
+      "commit": "a8d8d085f61fe8624b8eed49883324213b4f43f4",
+      "path": "source/UrbanDictionary.popclipext",
+      "author": "zhiyelee; Nicholas Moore and contributors",
+      "changes": [
+        "Retain original source and attribution; omit demonstration media from the distributable package.",
+        "Use HTTPS (PubMed uses its current canonical search host); preserve original manifest under upstream/ and use a separate Bubboo identifier."
+      ]
+    },
+    "summary": "Urban Dictionary 检索",
+    "minimumBubbooVersion": "0.1.4",
+    "acceptance": "acceptance/bubboo-0.1.4-batch3/README.md",
+    "testedBubbooBuild": {
+      "version": "0.1.4",
+      "buildNumber": "5",
+      "channel": "stable",
+      "executableSHA256": "b8a27108ca88f6af06a742686229bf28ad85757dd67e67ed4f6115312b5e6372",
+      "releaseURL": "https://github.com/Superoutman/Bubboo/releases/tag/v0.1.4"
+    }
   }
 ]

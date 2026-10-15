@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Actions</key>
+	<array>
+		<dict>
+			<key>Title</key>
+			<string>Amazon</string>
+			<key>URL</key>
+			<string>https://{popclip option site}/s?k={popclip text}</string>
+		</dict>
+	</array>
+	<key>Extension Identifier</key>
+	<string>com.superoutman.bubboo.extension.amazon</string>
+	<key>Extension Name</key>
+	<string>Amazon</string>
+	<key>Options</key>
+	<array>
+		<dict>
+			<key>Option Default Value</key>
+			<string>www.amazon.com</string>
+			<key>Option Identifier</key>
+			<string>site</string>
+			<key>Option Label</key>
+			<string>Site</string>
+			<key>Option Type</key>
+			<string>multiple</string>
+			<key>Option Values</key>
+			<array>
+				<string>www.amazon.com</string>
+				<string>www.amazon.co.uk</string>
+			</array>
+		</dict>
+	</array>
+</dict>
+</plist>

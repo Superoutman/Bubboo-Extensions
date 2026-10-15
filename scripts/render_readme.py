@@ -19,7 +19,7 @@ def render():
   feed=published[e['identifier']]
   if feed['version']!=e['version']:raise ValueError('Publish and verify the feed before advertising a new version')
   package=e['package'];name=package.removesuffix('.popclipext')
-  rows.append(f"| [{e['name']}](extensions/{package}/NOTICE.md) | {DESCRIPTIONS[name]} | {e['version']} | {e['minimumBubbooVersion']} | [{e['author']}](extensions/{package}/NOTICE.md) · [MIT](extensions/{package}/LICENSE.txt) | [下载 / Download]({feed['downloadURL']}) |")
+  rows.append(f"| [{e['name']}](extensions/{package}/NOTICE.md) | {e.get('summary') or DESCRIPTIONS[name]} | {e['version']} | {e['minimumBubbooVersion']} | [{e['author']}](extensions/{package}/NOTICE.md) · [MIT](extensions/{package}/LICENSE.txt) | [下载 / Download]({feed['downloadURL']}) |")
  p=ROOT/'README.md';s=p.read_text();body='\n'.join(rows)
  if START not in s:s=s.replace('## Validate and build',START+'\n'+END+'\n\n## Validate and build')
  left,rest=s.split(START,1);_,right=rest.split(END,1);p.write_text(left+START+'\n'+body+'\n'+END+right)
