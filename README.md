@@ -101,3 +101,13 @@ After publishing a stable extension Release:
 5. Changed package content must increment its curated version. Never overwrite an existing Release archive.
 
 All release preparation remains local. The public Ubuntu validation job uploads no artifacts or cache; repository Actions paid usage is capped at $0.
+
+### Sync the App download page
+
+After verifying release assets and regenerating `catalog/updates.json`, run locally:
+
+```sh
+python3 scripts/render_readme.py --app-repo ../Bubboo-public
+```
+
+This updates the extension table here and both public App READMEs from the same catalog, rewriting attribution links to absolute URLs. Commit and push the documentation changes in both repositories. Keep the public App anchor `#extensions` stable; the App download button targets it. No GitHub workflow or App release is needed for table updates.
