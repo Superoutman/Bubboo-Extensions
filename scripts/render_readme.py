@@ -11,23 +11,45 @@ DESCRIPTIONS = {
  'Wikipedia':'维基百科，可选语言站点', 'Uppercase':'转大写', 'Lowercase':'转小写', 'URLEncode':'URL 编码 / 解码', 'CharCount':'字符计数',
  'TitleCase':'英文单行标题大小写（适配版）', 'Base64':'UTF-8 编解码，标准 / URL-safe（适配版）'
 }
+EN_DESCRIPTIONS = {
+ 'Baidu':'Baidu search', 'Bing':'Bing search', 'DuckDuckGo':'Private web search',
+ 'GoogleSearch':'Google search with regional sites', 'GoogleTranslate':'Web translation with regional sites',
+ 'GoogleMaps':'Map search', 'GoogleScholar':'Scholarly search', 'YouTube':'Video search',
+ 'Wikipedia':'Wikipedia search with language options', 'Uppercase':'Convert to uppercase',
+ 'Lowercase':'Convert to lowercase', 'URLEncode':'URL encoding / decoding', 'CharCount':'Character count',
+ 'TitleCase':'Single-line English title case (adapted)', 'Base64':'UTF-8 encoding / decoding, standard / URL-safe (adapted)',
+ 'Capitalize':'Capitalize words', 'SentenceCase':'Sentence case', 'JoinLines':'Join lines',
+ 'RemoveSpaces':'Remove whitespace', 'Reverse':'Reverse line order', 'Sort':'Natural line sorting',
+ 'CommaList':'Convert between comma-separated lists and lines', 'FullHalfWidth':'Full-width / half-width conversion',
+ 'GoogleImages':'Google Images search', 'PubMed':'PubMed search', 'IMDb':'IMDb search',
+ 'Amazon':'Amazon search', 'Ebay':'eBay search', 'Goodreads':'Goodreads search',
+ 'StartPage':'StartPage search', 'UrbanDictionary':'Urban Dictionary lookup'
+}
 def render(app_repo=None):
  entries=json.loads((ROOT/'catalog/entries.json').read_text())
  published={e['identifier']:e for e in json.loads((ROOT/'catalog/updates.json').read_text())['extensions']}
- rows=['| 扩展 / Extension | 用途 | 版本 | 最低 Bubboo | 作者 / 许可证 | 下载 |','| --- | --- | --- | --- | --- | --- |']
+ headers={
+  'mixed':'| 扩展 / Extension | 用途 | 版本 | 最低 Bubboo | 作者 / 许可证 | 下载 |',
+  'en':'| Extension | Purpose | Version | Minimum Bubboo | Author / License | Download |',
+  'zh':'| 扩展 | 用途 | 版本 | 最低 Bubboo 版本 | 作者 / 许可证 | 下载 |'
+ }
+ rows={language:[header,'| --- | --- | --- | --- | --- | --- |'] for language,header in headers.items()}
+ labels={'mixed':'下载 / Download','en':'Download','zh':'下载'}
  for e in sorted(entries,key=lambda e:e['name'].casefold()):
   if e['status']!='verified':continue
   feed=published[e['identifier']]
   if feed['version']!=e['version']:raise ValueError('Publish and verify the feed before advertising a new version')
   package=e['package'];name=package.removesuffix('.popclipext')
-  rows.append(f"| [{e['name']}](extensions/{package}/NOTICE.md) | {e.get('summary') or DESCRIPTIONS[name]} | {e['version']} | {e['minimumBubbooVersion']} | [{e['author']}](extensions/{package}/NOTICE.md) · [MIT](extensions/{package}/LICENSE.txt) | [下载 / Download]({feed['downloadURL']}) |")
- p=ROOT/'README.md';s=p.read_text();body='\n'.join(rows)
+  for language in rows:
+   description=EN_DESCRIPTIONS[name] if language=='en' else (e.get('summary') or DESCRIPTIONS[name])
+   rows[language].append(f"| [{e['name']}](extensions/{package}/NOTICE.md) | {description} | {e['version']} | {e['minimumBubbooVersion']} | [{e['author']}](extensions/{package}/NOTICE.md) · [MIT](extensions/{package}/LICENSE.txt) | [{labels[language]}]({feed['downloadURL']}) |")
+ p=ROOT/'README.md';s=p.read_text();body='\n'.join(rows['mixed'])
  if START not in s:s=s.replace('## Validate and build',START+'\n'+END+'\n\n## Validate and build')
  left,rest=s.split(START,1);_,right=rest.split(END,1);p.write_text(left+START+'\n'+body+'\n'+END+right)
  if app_repo is not None:
   # Read and validate both destinations before writing either file.
   documents=[]
-  absolute_body=body.replace('(extensions/', '(https://github.com/Superoutman/Bubboo-Extensions/blob/main/extensions/')
+  app_tables={language:'\n'.join(rows[language]).replace('(extensions/', '(https://github.com/Superoutman/Bubboo-Extensions/blob/main/extensions/') for language in ('en','zh')}
   count=sum(e['status']=='verified' for e in entries)
   intros={
    'README.md': f"""Bubboo extensions give you more ways to work with selected text: search different services, translate, reformat text, or connect a task to a tool you already use. Choose the actions that suit your workflow and keep your toolbar focused on what you need.
@@ -77,7 +99,7 @@ If you find an attribution, licensing or inclusion error, please report it throu
    if content.count(START)!=1 or content.count(END)!=1 or '<a id="extensions"></a>' not in content:
     raise ValueError(f'{path}: expected one table block and fixed extensions anchor')
    before,rest=content.split(START,1);_,after=rest.split(END,1)
-   documents.append((path,before+START+'\n'+intros[filename]+absolute_body+'\n\n'+copyright_sections[filename].rstrip()+'\n\n'+END+after))
+   documents.append((path,before+START+'\n'+intros[filename]+app_tables['en' if filename=='README.md' else 'zh']+'\n\n'+copyright_sections[filename].rstrip()+'\n\n'+END+after))
   for path,content in documents:path.write_text(content)
 if __name__=='__main__':
  parser=argparse.ArgumentParser(description=__doc__)
