@@ -8,7 +8,7 @@
       "contentSHA256": "ca0d2178d60dd408515c53eeab2fcc1c22d2928b01562df788535154b90894da",
       "sha256": "e98fb9a4d803f7af936d11a1c750950dfae2e5ab5603720d59de9c0322d70678",
       "bytes": 3242,
-      "downloadURL": "https://github.com/Superoutman/Bubboo-Extensions/releases/download/v0.1.1/CharCount-0.1.0.popclipextz",
+      "downloadURL": "https://github.com/Superoutman/Bubboo-Extensions/releases/download/v0.1.2/CharCount-0.1.0.popclipextz",
       "history": []
     },
     {
@@ -18,7 +18,7 @@
       "contentSHA256": "eb24de423632397ed9bccb83675675f3f5a6acc57506008fa0faffbfa51f11a6",
       "sha256": "799f8f793e63576a92a724bcdae9be64f39541df1206a13319df2bc2e407079f",
       "bytes": 17415,
-      "downloadURL": "https://github.com/Superoutman/Bubboo-Extensions/releases/download/v0.1.1/DuckDuckGo-0.1.0.popclipextz",
+      "downloadURL": "https://github.com/Superoutman/Bubboo-Extensions/releases/download/v0.1.2/DuckDuckGo-0.1.0.popclipextz",
       "history": []
     },
     {
@@ -28,7 +28,7 @@
       "contentSHA256": "14db140719fe53a834302fa8e290252bb1823036a6bd06f68e351bb4817223ce",
       "sha256": "64de57da7f77f4361cde397fe9b559f17d67a67bb0e19def2df628fbeaf960f0",
       "bytes": 17597,
-      "downloadURL": "https://github.com/Superoutman/Bubboo-Extensions/releases/download/v0.1.1/GoogleMaps-0.1.0.popclipextz",
+      "downloadURL": "https://github.com/Superoutman/Bubboo-Extensions/releases/download/v0.1.2/GoogleMaps-0.1.0.popclipextz",
       "history": []
     },
     {
@@ -38,7 +38,7 @@
       "contentSHA256": "954b6202a21a25945aa5892654f44acf2b36c17dea0e4a59a2244db29847e450",
       "sha256": "fbc3511d825671f1d890871cf4a13067bd0a7f1dda65f04ad1aba215cc917dc9",
       "bytes": 13212,
-      "downloadURL": "https://github.com/Superoutman/Bubboo-Extensions/releases/download/v0.1.1/GoogleSearch-0.1.0.popclipextz",
+      "downloadURL": "https://github.com/Superoutman/Bubboo-Extensions/releases/download/v0.1.2/GoogleSearch-0.1.0.popclipextz",
       "history": []
     },
     {
@@ -48,7 +48,7 @@
       "contentSHA256": "16358497c38f493eaab6153dedc72ed121d746aa3030f3b3c93e30b6045ee3c2",
       "sha256": "f6dd5a8e138bfdc0c5bd134aed0405b57bb645481d186a6dcb9240fde144555e",
       "bytes": 2730,
-      "downloadURL": "https://github.com/Superoutman/Bubboo-Extensions/releases/download/v0.1.1/Lowercase-0.1.0.popclipextz",
+      "downloadURL": "https://github.com/Superoutman/Bubboo-Extensions/releases/download/v0.1.2/Lowercase-0.1.0.popclipextz",
       "history": []
     },
     {
@@ -58,7 +58,7 @@
       "contentSHA256": "a809dc164e6d7c7abf4c324eb875bbe45b2410fd7b92dd22eaef77a47a419b11",
       "sha256": "0a17f53bbbee000e5fd423843dc232339b2d5c03f005719c4b5f185cbe50ec9d",
       "bytes": 2776,
-      "downloadURL": "https://github.com/Superoutman/Bubboo-Extensions/releases/download/v0.1.1/Uppercase-0.1.0.popclipextz",
+      "downloadURL": "https://github.com/Superoutman/Bubboo-Extensions/releases/download/v0.1.2/Uppercase-0.1.0.popclipextz",
       "history": []
     },
     {
@@ -68,7 +68,7 @@
       "contentSHA256": "1058c1ff1ceb6984f2217cdf64d73338aa37dd861279a0d872678318a23b5114",
       "sha256": "9a73350f9a4fb1540f9566ce7bbeee12be148ea745abaa9c5a46b8bd44402656",
       "bytes": 3562,
-      "downloadURL": "https://github.com/Superoutman/Bubboo-Extensions/releases/download/v0.1.1/URLEncode-0.1.0.popclipextz",
+      "downloadURL": "https://github.com/Superoutman/Bubboo-Extensions/releases/download/v0.1.2/URLEncode-0.1.0.popclipextz",
       "history": []
     },
     {
@@ -78,7 +78,7 @@
       "contentSHA256": "06c6504133afae656321fccf637a4d4dba531282907c577a845c051e47b6fa48",
       "sha256": "73fb4818445ced0ced838a4c9534141fd286e9a5cb916cf1843ee4f6c95a0bd5",
       "bytes": 18758,
-      "downloadURL": "https://github.com/Superoutman/Bubboo-Extensions/releases/download/v0.1.1/Wikipedia-0.1.0.popclipextz",
+      "downloadURL": "https://github.com/Superoutman/Bubboo-Extensions/releases/download/v0.1.2/Wikipedia-0.1.0.popclipextz",
       "history": []
     },
     {
@@ -88,7 +88,17 @@
       "contentSHA256": "556432f795ea4830428c9a3980a2502164f310ba0cb63dfdc3108641dd4eda3e",
       "sha256": "77cd3d91f758e616a243ab81fb308d4b703212a04b9c24bb802e502e9a1988a2",
       "bytes": 16227,
-      "downloadURL": "https://github.com/Superoutman/Bubboo-Extensions/releases/download/v0.1.1/Baidu-0.1.0.popclipextz",
+      "downloadURL": "https://github.com/Superoutman/Bubboo-Extensions/releases/download/v0.1.2/Baidu-0.1.0.popclipextz",
+      "history": []
+    },
+    {
+      "identifier": "com.superoutman.bubboo.extension.base64",
+      "version": "0.1.0",
+      "minimumBubbooVersion": "0.1.4",
+      "contentSHA256": "c2814fd555595891f31bb64b3c31bf1f87d38abc58be8fc65db60ea10eeaaf92",
+      "sha256": "eae65bbac637ca9f84acc789a45ff43ed4c40410611aba9a3d9483ae8c7da088",
+      "bytes": 19130,
+      "downloadURL": "https://github.com/Superoutman/Bubboo-Extensions/releases/download/v0.1.2/Base64-0.1.0.popclipextz",
       "history": []
     },
     {
@@ -98,7 +108,7 @@
       "contentSHA256": "e0b8ad339be222effd289413ada5f38f0efe646a99f57d338b057dfd03fad776",
       "sha256": "025ef39d940db1e67fab993c694cc794f73b8a54d68a4fc32a212954f9f32a32",
       "bytes": 4874,
-      "downloadURL": "https://github.com/Superoutman/Bubboo-Extensions/releases/download/v0.1.1/Bing-0.1.0.popclipextz",
+      "downloadURL": "https://github.com/Superoutman/Bubboo-Extensions/releases/download/v0.1.2/Bing-0.1.0.popclipextz",
       "history": []
     },
     {
@@ -108,7 +118,7 @@
       "contentSHA256": "356a6dad943996e557467887f01d511786c86e4a675da4cf6269db90732305b4",
       "sha256": "0b25fcf6b6f5222fd0e3145c5ffd2da611f4bb20b91e9c6a5c5c95a2bd89fca6",
       "bytes": 18607,
-      "downloadURL": "https://github.com/Superoutman/Bubboo-Extensions/releases/download/v0.1.1/GoogleScholar-0.1.0.popclipextz",
+      "downloadURL": "https://github.com/Superoutman/Bubboo-Extensions/releases/download/v0.1.2/GoogleScholar-0.1.0.popclipextz",
       "history": []
     },
     {
@@ -118,7 +128,17 @@
       "contentSHA256": "606962fdbe9961fc2e4b633f97875237aec764df200ea4d5f3775ee12ee43dc2",
       "sha256": "d887353845e4f64f13b5109e8deb8e5d7ccd4d1df22310c881fcac11cc90e8a7",
       "bytes": 19549,
-      "downloadURL": "https://github.com/Superoutman/Bubboo-Extensions/releases/download/v0.1.1/GoogleTranslate-0.1.0.popclipextz",
+      "downloadURL": "https://github.com/Superoutman/Bubboo-Extensions/releases/download/v0.1.2/GoogleTranslate-0.1.0.popclipextz",
+      "history": []
+    },
+    {
+      "identifier": "com.superoutman.bubboo.extension.titlecase",
+      "version": "0.1.0",
+      "minimumBubbooVersion": "0.1.4",
+      "contentSHA256": "f280d2e05b632fd2c53617bda44bf6450ecf7bf8e67b9fa787968841199fcee7",
+      "sha256": "97b88ee2dadf5fbc85e1b8bfa91924a75878c875128aa2c9744d0ca1eee7eb43",
+      "bytes": 10012,
+      "downloadURL": "https://github.com/Superoutman/Bubboo-Extensions/releases/download/v0.1.2/TitleCase-0.1.0.popclipextz",
       "history": []
     },
     {
@@ -128,7 +148,7 @@
       "contentSHA256": "9a36b573eb94d9b9e4163f8956517916edc1068596dda6a5e514f029b4a69a33",
       "sha256": "c2eb0dd2c2998c8c3882212b317f7482e011d55483a15349d24cd4e4fb7831e8",
       "bytes": 12365,
-      "downloadURL": "https://github.com/Superoutman/Bubboo-Extensions/releases/download/v0.1.1/YouTube-0.1.0.popclipextz",
+      "downloadURL": "https://github.com/Superoutman/Bubboo-Extensions/releases/download/v0.1.2/YouTube-0.1.0.popclipextz",
       "history": []
     }
   ]

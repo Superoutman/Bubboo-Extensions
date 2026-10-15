@@ -4,11 +4,37 @@ A curated collection of original-format PopClip extensions for Bubboo. Authors, 
 
 ## Current stable collection
 
-**13 extensions verified with Bubboo 0.1.2 or later.** [Release acceptance](acceptance/bubboo-0.1.2/README.md). Things 3 is skipped and not included.
+**15 verified extensions.** The original 13 require Bubboo 0.1.2 or later; Title Case and Base64 require 0.1.4. [First-batch acceptance](acceptance/bubboo-0.1.2/README.md) · [Second-batch acceptance and limits](acceptance/bubboo-0.1.4-batch2/README.md). Things 3 is skipped and not included.
 
 Download [Bubboo 0.1.4](https://github.com/Superoutman/Bubboo/releases/tag/v0.1.4), then download individual `.popclipextz` files from [extension Releases](https://github.com/Superoutman/Bubboo-Extensions/releases/latest). Import through Bubboo Settings and explicitly enable each extension. `SHA256SUMS` verifies download integrity.
 
 **Acceptance is a release gate.** `candidate` and `blocked` entries are review material, not verified downloads. Only entries explicitly marked `verified` in [`catalog/entries.json`](catalog/entries.json) are packaged. Store/import tests alone do not establish real browser, selection replacement, Settings UI or target-app compatibility. Things 3 requires real installed-app acceptance.
+
+## Extension downloads / 扩展下载
+
+Versions below are curated package versions, independent of the Bubboo App version. Each download is an immutable Release asset. Click an extension name for authorship and adaptation details.
+
+表中版本是扩展包版本，不是 App 版本；点击名称查看来源及适配说明。Title Case 仅处理单行英文标题；Base64 使用三个动作按钮，不等同于上游完整选项界面。两项沿用当前 Bubboo 0.1.4，无需升级主 App。
+
+<!-- extension-table:start -->
+| 扩展 / Extension | 用途 | 版本 | 最低 Bubboo | 作者 / 许可证 | 下载 |
+| --- | --- | --- | --- | --- | --- |
+| [Baidu](extensions/Baidu.popclipext/NOTICE.md) | 百度搜索 | 0.1.0 | 0.1.2 | [Junxue Zhang; Nicholas Moore and contributors](extensions/Baidu.popclipext/NOTICE.md) · [MIT](extensions/Baidu.popclipext/LICENSE.txt) | [下载 / Download](https://github.com/Superoutman/Bubboo-Extensions/releases/download/v0.1.2/Baidu-0.1.0.popclipextz) |
+| [Base64](extensions/Base64.popclipext/NOTICE.md) | UTF-8 编解码，标准 / URL-safe（适配版） | 0.1.0 | 0.1.4 | [Nicholas Moore and contributors](extensions/Base64.popclipext/NOTICE.md) · [MIT](extensions/Base64.popclipext/LICENSE.txt) | [下载 / Download](https://github.com/Superoutman/Bubboo-Extensions/releases/download/v0.1.2/Base64-0.1.0.popclipextz) |
+| [Bing](extensions/Bing.popclipext/NOTICE.md) | Bing 搜索 | 0.1.0 | 0.1.2 | [Morton Fox; Nicholas Moore and contributors. Icon acknowledged upstream as Simple Icons.](extensions/Bing.popclipext/NOTICE.md) · [MIT](extensions/Bing.popclipext/LICENSE.txt) | [下载 / Download](https://github.com/Superoutman/Bubboo-Extensions/releases/download/v0.1.2/Bing-0.1.0.popclipextz) |
+| [Character Count](extensions/CharCount.popclipext/NOTICE.md) | 字符计数 | 0.1.0 | 0.1.2 | [Nicholas Moore and contributors](extensions/CharCount.popclipext/NOTICE.md) · [MIT](extensions/CharCount.popclipext/LICENSE.txt) | [下载 / Download](https://github.com/Superoutman/Bubboo-Extensions/releases/download/v0.1.2/CharCount-0.1.0.popclipextz) |
+| [DuckDuckGo](extensions/DuckDuckGo.popclipext/NOTICE.md) | 隐私搜索 | 0.1.0 | 0.1.2 | [Nicholas Moore and contributors](extensions/DuckDuckGo.popclipext/NOTICE.md) · [MIT](extensions/DuckDuckGo.popclipext/LICENSE.txt) | [下载 / Download](https://github.com/Superoutman/Bubboo-Extensions/releases/download/v0.1.2/DuckDuckGo-0.1.0.popclipextz) |
+| [Google](extensions/GoogleSearch.popclipext/NOTICE.md) | Google 搜索，可选地区站点 | 0.1.0 | 0.1.2 | [Nicholas Moore and contributors](extensions/GoogleSearch.popclipext/NOTICE.md) · [MIT](extensions/GoogleSearch.popclipext/LICENSE.txt) | [下载 / Download](https://github.com/Superoutman/Bubboo-Extensions/releases/download/v0.1.2/GoogleSearch-0.1.0.popclipextz) |
+| [Google Maps](extensions/GoogleMaps.popclipext/NOTICE.md) | 地图搜索 | 0.1.0 | 0.1.2 | [Nicholas Moore and contributors](extensions/GoogleMaps.popclipext/NOTICE.md) · [MIT](extensions/GoogleMaps.popclipext/LICENSE.txt) | [下载 / Download](https://github.com/Superoutman/Bubboo-Extensions/releases/download/v0.1.2/GoogleMaps-0.1.0.popclipextz) |
+| [Google Scholar](extensions/GoogleScholar.popclipext/NOTICE.md) | 学术搜索 | 0.1.0 | 0.1.2 | [Nicholas Moore and contributors](extensions/GoogleScholar.popclipext/NOTICE.md) · [MIT](extensions/GoogleScholar.popclipext/LICENSE.txt) | [下载 / Download](https://github.com/Superoutman/Bubboo-Extensions/releases/download/v0.1.2/GoogleScholar-0.1.0.popclipextz) |
+| [Google Translate](extensions/GoogleTranslate.popclipext/NOTICE.md) | 网页翻译，可选地区站点 | 0.1.0 | 0.1.2 | [Nicholas Moore and contributors](extensions/GoogleTranslate.popclipext/NOTICE.md) · [MIT](extensions/GoogleTranslate.popclipext/LICENSE.txt) | [下载 / Download](https://github.com/Superoutman/Bubboo-Extensions/releases/download/v0.1.2/GoogleTranslate-0.1.0.popclipextz) |
+| [Lowercase](extensions/Lowercase.popclipext/NOTICE.md) | 转小写 | 0.1.0 | 0.1.2 | [Nicholas Moore and contributors](extensions/Lowercase.popclipext/NOTICE.md) · [MIT](extensions/Lowercase.popclipext/LICENSE.txt) | [下载 / Download](https://github.com/Superoutman/Bubboo-Extensions/releases/download/v0.1.2/Lowercase-0.1.0.popclipextz) |
+| [Title Case](extensions/TitleCase.popclipext/NOTICE.md) | 英文单行标题大小写（适配版） | 0.1.0 | 0.1.4 | [John Gruber; Aristotle Pagaltzis; Nicholas Moore and contributors](extensions/TitleCase.popclipext/NOTICE.md) · [MIT](extensions/TitleCase.popclipext/LICENSE.txt) | [下载 / Download](https://github.com/Superoutman/Bubboo-Extensions/releases/download/v0.1.2/TitleCase-0.1.0.popclipextz) |
+| [Uppercase](extensions/Uppercase.popclipext/NOTICE.md) | 转大写 | 0.1.0 | 0.1.2 | [Nicholas Moore and contributors](extensions/Uppercase.popclipext/NOTICE.md) · [MIT](extensions/Uppercase.popclipext/LICENSE.txt) | [下载 / Download](https://github.com/Superoutman/Bubboo-Extensions/releases/download/v0.1.2/Uppercase-0.1.0.popclipextz) |
+| [URL Encode](extensions/URLEncode.popclipext/NOTICE.md) | URL 编码 / 解码 | 0.1.0 | 0.1.2 | [Nicholas Moore and contributors; original Perl extension by Brett Terpstra.](extensions/URLEncode.popclipext/NOTICE.md) · [MIT](extensions/URLEncode.popclipext/LICENSE.txt) | [下载 / Download](https://github.com/Superoutman/Bubboo-Extensions/releases/download/v0.1.2/URLEncode-0.1.0.popclipextz) |
+| [Wikipedia](extensions/Wikipedia.popclipext/NOTICE.md) | 维基百科，可选语言站点 | 0.1.0 | 0.1.2 | [Nicholas Moore and contributors](extensions/Wikipedia.popclipext/NOTICE.md) · [MIT](extensions/Wikipedia.popclipext/LICENSE.txt) | [下载 / Download](https://github.com/Superoutman/Bubboo-Extensions/releases/download/v0.1.2/Wikipedia-0.1.0.popclipextz) |
+| [YouTube](extensions/YouTube.popclipext/NOTICE.md) | 视频搜索 | 0.1.0 | 0.1.2 | [Nicholas Moore and contributors](extensions/YouTube.popclipext/NOTICE.md) · [MIT](extensions/YouTube.popclipext/LICENSE.txt) | [下载 / Download](https://github.com/Superoutman/Bubboo-Extensions/releases/download/v0.1.2/YouTube-0.1.0.popclipextz) |
+<!-- extension-table:end -->
 
 ## Validate and build
 
@@ -34,7 +60,7 @@ The generated catalog records artifact filenames relative to the same Release, a
 
 ## 中文说明
 
-**当前正式合集：13 项已在 Bubboo 0.1.2（build 3）正式构建完成端到端复验，最低兼容版本为 0.1.2；Things 3 暂不包含。**
+**当前正式合集：15 项。原有 13 项最低兼容 Bubboo 0.1.2；新增 Title Case、Base64 在 Bubboo 0.1.4（build 5）通过端到端验收。Things 3 暂不包含。**
 
 这是 Bubboo 的精选扩展源码与下载仓库，保留 PopClip 原格式、原作者及许可证。未来可以纳入经过独立验收的 OpenClip 原格式扩展，当前不声称已支持。
 
@@ -55,6 +81,7 @@ After publishing a stable extension Release:
 1. Download its `catalog.json` and archives using `gh release download <tag>`.
 2. Run `python3 scripts/update_feed.py --assets <download-directory> --tag <tag>`.
 3. Run `python3 scripts/test_update_feed.py`, review the generated history, and commit `catalog/updates.json` only after verifying the public downloads. Do not delete historical content hashes; they identify older installations.
-4. Changed package content must increment its curated version. Never overwrite an existing Release archive.
+4. Run `python3 scripts/render_readme.py` to refresh the download table from the verified feed. Review and commit the table with the feed so versions and links stay consistent.
+5. Changed package content must increment its curated version. Never overwrite an existing Release archive.
 
 All release preparation remains local. The public Ubuntu validation job uploads no artifacts or cache; repository Actions paid usage is capped at $0.
