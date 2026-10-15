@@ -44,3 +44,17 @@ The generated catalog records artifact filenames relative to the same Release, a
 - 每个归档都带 `LICENSE.txt`、`NOTICE.md`、`UPSTREAM.json`，修改需说明来源和差异。根目录脚本使用 MIT；各扩展以各自许可证为准，不能把第三方代码称为自有原创。
 - 公共 PR 自动执行只读校验；发布需先完成验收、合并审核、打 tag，再将该 tag 构建出的附件上传 GitHub Release。当前没有自动上传权限或发布任务。
 - 每次上游更新重新验收；扩展版本、目录和下载与 Bubboo App/Sparkle 更新分开维护。
+
+## Manual extension updates (Bubboo 0.1.3 development build)
+
+The app checks the small static `catalog/updates.json` only on request. It caches the catalog for six hours and uses ETag revalidation. It downloads a selected archive only when the user clicks Update. There is no automatic installation.
+
+The feed maps exact package content hashes to curated versions. Modified or unknown third-party packages are excluded; older recognized versions can upgrade without changing identifiers or original package formats. Application settings remain outside packages and survive replacement. Changed content always needs fresh approval.
+
+After publishing a stable extension Release:
+1. Download its `catalog.json` and archives using `gh release download <tag>`.
+2. Run `python3 scripts/update_feed.py --assets <download-directory> --tag <tag>`.
+3. Run `python3 scripts/test_update_feed.py`, review the generated history, and commit `catalog/updates.json` only after verifying the public downloads. Do not delete historical content hashes; they identify older installations.
+4. Changed package content must increment its curated version. Never overwrite an existing Release archive.
+
+All release preparation remains local. The public Ubuntu validation job uploads no artifacts or cache; repository Actions paid usage is capped at $0.
