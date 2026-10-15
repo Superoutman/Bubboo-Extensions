@@ -1,0 +1,12 @@
+[
+  {
+    "action": "Uppercase partial selection",
+    "actual": "prefix HELLO suffix",
+    "passed": true
+  },
+  {
+    "action": "URL-decode malformed input",
+    "actual": "%FF",
+    "passed": true
+  }
+]

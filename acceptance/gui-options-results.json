@@ -1,0 +1,30 @@
+[
+  {
+    "action": "Google",
+    "option": "www.google.co.uk",
+    "query": "Bubboo option test",
+    "openedURL": "https://www.google.co.uk/search?q=Bubboo%20option%20test",
+    "passed": true
+  },
+  {
+    "action": "Google Translate",
+    "option": "translate.google.co.jp",
+    "query": "你好",
+    "openedURL": "https://translate.google.co.jp/?sl=auto&tl=en&text=%E4%BD%A0%E5%A5%BD&op=translate",
+    "passed": true
+  },
+  {
+    "action": "Google Maps",
+    "option": "google.co.uk",
+    "query": "Shanghai",
+    "openedURL": "https://google.co.uk/maps?q=Shanghai",
+    "passed": true
+  },
+  {
+    "action": "Wikipedia",
+    "option": "zh.wikipedia.org",
+    "query": "上海",
+    "openedURL": "https://zh.wikipedia.org/w/index.php?search=%E4%B8%8A%E6%B5%B7",
+    "passed": true
+  }
+]

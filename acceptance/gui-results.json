@@ -1,0 +1,108 @@
+[
+  {
+    "action": "Uppercase",
+    "source": "Hello 中文 ß & 100%",
+    "expected": "HELLO 中文 SS & 100%",
+    "actual": "HELLO 中文 SS & 100%",
+    "passed": true
+  },
+  {
+    "action": "Lowercase",
+    "source": "HELLO 中文 & 100%",
+    "expected": "hello 中文 & 100%",
+    "actual": "hello 中文 & 100%",
+    "passed": true
+  },
+  {
+    "action": "URL-encode",
+    "source": "Hello 中文 & 100%",
+    "expected": "Hello%20%E4%B8%AD%E6%96%87%20%26%20100%25",
+    "actual": "Hello%20%E4%B8%AD%E6%96%87%20%26%20100%25",
+    "passed": true
+  },
+  {
+    "action": "URL-decode",
+    "source": "Hello%20%E4%B8%AD%E6%96%87%20%26%20100%25",
+    "expected": "Hello 中文 & 100%",
+    "actual": "Hello 中文 & 100%",
+    "passed": true
+  },
+  {
+    "action": "Character Count",
+    "source": "Hello 中文 ß & 100%",
+    "actual": "17 Characters",
+    "passed": true
+  },
+  {
+    "action": "Baidu",
+    "source": "Bubboo 中文 & test",
+    "openedURL": "https://www.baidu.com/s?wd=Bubboo%20%E4%B8%AD%E6%96%87%20%26%20test",
+    "status": "passed",
+    "passed": true,
+    "destinationEvidence": "Browser title and search field preserve the synthetic query; no challenge page observed."
+  },
+  {
+    "action": "Bing",
+    "source": "Bubboo 中文 & test",
+    "openedURL": "https://www.bing.com/search?q=Bubboo%20%E4%B8%AD%E6%96%87%20%26%20test",
+    "status": "passed",
+    "passed": true,
+    "destinationEvidence": "Browser title and search field preserve the synthetic query; no challenge page observed."
+  },
+  {
+    "action": "DuckDuckGo",
+    "source": "Bubboo 中文 & test",
+    "openedURL": "https://duckduckgo.com/?q=Bubboo%20%E4%B8%AD%E6%96%87%20%26%20test",
+    "status": "passed",
+    "passed": true,
+    "destinationEvidence": "Browser title and search field preserve the synthetic query; no challenge page observed."
+  },
+  {
+    "action": "Google",
+    "source": "Bubboo 中文 & test",
+    "openedURL": "https://www.google.com/search?q=Bubboo%20%E4%B8%AD%E6%96%87%20%26%20test",
+    "status": "passed",
+    "passed": true,
+    "destinationEvidence": "Browser title and search field preserve the synthetic query; no challenge page observed."
+  },
+  {
+    "action": "Google Translate",
+    "source": "Bubboo 中文 & test",
+    "openedURL": "https://translate.google.com/?sl=auto&tl=en&text=Bubboo%20%E4%B8%AD%E6%96%87%20%26%20test&op=translate",
+    "status": "passed",
+    "passed": true,
+    "destinationEvidence": "Source field: Bubboo 中文 & test; translated output: Bubboo Chinese & test; target English."
+  },
+  {
+    "action": "Google Maps",
+    "source": "Bubboo 中文 & test",
+    "openedURL": "https://www.google.com/maps?q=Bubboo%20%E4%B8%AD%E6%96%87%20%26%20test",
+    "status": "passed",
+    "passed": true,
+    "destinationEvidence": "Initial synthetic query resolved to a place. Additional Shanghai query returned 上海市 in search field and page title; see gui-options-results.json."
+  },
+  {
+    "action": "Google Scholar",
+    "source": "Bubboo 中文 & test",
+    "openedURL": "https://scholar.google.com/scholar?q=Bubboo%20%E4%B8%AD%E6%96%87%20%26%20test",
+    "status": "passed",
+    "passed": true,
+    "destinationEvidence": "Browser title and search field preserve the synthetic query; no challenge page observed."
+  },
+  {
+    "action": "YouTube",
+    "source": "Bubboo 中文 & test",
+    "openedURL": "https://www.youtube.com/results?search_query=Bubboo%20%E4%B8%AD%E6%96%87%20%26%20test",
+    "status": "passed",
+    "passed": true,
+    "destinationEvidence": "Browser title and search field preserve the synthetic query; no challenge page observed."
+  },
+  {
+    "action": "Wikipedia",
+    "source": "Bubboo 中文 & test",
+    "openedURL": "https://en.wikipedia.org/w/index.php?search=Bubboo%20%E4%B8%AD%E6%96%87%20%26%20test",
+    "status": "passed",
+    "passed": true,
+    "destinationEvidence": "Browser title and search field preserve the synthetic query; no challenge page observed."
+  }
+]

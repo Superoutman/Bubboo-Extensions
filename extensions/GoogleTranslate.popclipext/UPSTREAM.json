@@ -1,0 +1,10 @@
+{
+  "repository": "https://github.com/pilotmoon/PopClip-Extensions",
+  "commit": "a8d8d085f61fe8624b8eed49883324213b4f43f4",
+  "path": "source/GoogleTranslate.popclipext",
+  "changes": [
+    "Use the current web translation URL with automatic source language and English target; language can be changed on the website.",
+    "Use a Bubboo-maintained identifier to distinguish this adapted package from upstream."
+  ],
+  "author": "Nicholas Moore and contributors"
+}

@@ -1,0 +1,10 @@
+{
+  "repository": "https://github.com/pilotmoon/PopClip-Extensions",
+  "commit": "a8d8d085f61fe8624b8eed49883324213b4f43f4",
+  "path": "source/Bing.popclipext",
+  "changes": [
+    "Upgrade the search URL from HTTP to HTTPS.",
+    "Use a Bubboo-maintained identifier to distinguish this adapted package from upstream."
+  ],
+  "author": "Morton Fox; Nicholas Moore and contributors. Icon acknowledged upstream as Simple Icons."
+}
