@@ -1,0 +1,101 @@
+[
+  {
+    "action": "Title Case",
+    "input": "a tale of two cities",
+    "expected": "A Tale of Two Cities",
+    "actual": "A Tale of Two Cities",
+    "passed": true
+  },
+  {
+    "action": "Title Case",
+    "input": "hello 中文 & emoji 😀",
+    "expected": "Hello 中文 & Emoji 😀",
+    "actual": "Hello 中文 & Emoji 😀",
+    "passed": true
+  },
+  {
+    "action": "Title Case",
+    "input": "  the rise of iPhone and macOS  ",
+    "expected": "The Rise of iPhone and macOS",
+    "actual": "The Rise of iPhone and macOS",
+    "passed": true
+  },
+  {
+    "action": "Base64 Encode",
+    "input": "Hello 中文 😀",
+    "expected": "SGVsbG8g5Lit5paHIPCfmIA=",
+    "actual": "SGVsbG8g5Lit5paHIPCfmIA=",
+    "passed": true
+  },
+  {
+    "action": "Base64 URL Encode",
+    "input": "Hello 中文 😀",
+    "expected": "SGVsbG8g5Lit5paHIPCfmIA",
+    "actual": "SGVsbG8g5Lit5paHIPCfmIA",
+    "passed": true
+  },
+  {
+    "action": "Base64 Encode",
+    "input": "line one\nline two &+?#",
+    "expected": "bGluZSBvbmUKbGluZSB0d28gJis/Iw==",
+    "actual": "bGluZSBvbmUKbGluZSB0d28gJis/Iw==",
+    "passed": true
+  },
+  {
+    "action": "Base64 URL Encode",
+    "input": "line one\nline two &+?#",
+    "expected": "bGluZSBvbmUKbGluZSB0d28gJis_Iw",
+    "actual": "bGluZSBvbmUKbGluZSB0d28gJis_Iw",
+    "passed": true
+  },
+  {
+    "action": "Base64 Encode",
+    "input": "😀?",
+    "expected": "8J+YgD8=",
+    "actual": "8J+YgD8=",
+    "passed": true
+  },
+  {
+    "action": "Base64 URL Encode",
+    "input": "😀?",
+    "expected": "8J-YgD8",
+    "actual": "8J-YgD8",
+    "passed": true
+  },
+  {
+    "action": "Base64 Decode",
+    "input": "SGVsbG8g5Lit5paHIPCfmIA=",
+    "expected": "Hello 中文 😀",
+    "actual": "Hello 中文 😀",
+    "passed": true
+  },
+  {
+    "action": "Base64 Decode",
+    "input": "8J-YgD8",
+    "expected": "😀?",
+    "actual": "😀?",
+    "passed": true
+  },
+  {
+    "action": "Invalid Base64 preserves document",
+    "input": "Zh==",
+    "actual": "Zh==",
+    "passed": true
+  },
+  {
+    "action": "Invalid Base64 preserves document",
+    "input": "////",
+    "actual": "////",
+    "passed": true
+  },
+  {
+    "action": "Invalid Base64 preserves document",
+    "input": "AA==",
+    "actual": "AA==",
+    "passed": true
+  },
+  {
+    "action": "Title Case rejects multiline without changing document",
+    "passed": true
+  }
+]

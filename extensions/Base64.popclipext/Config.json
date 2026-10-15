@@ -1,0 +1,24 @@
+{
+  "name": "Base64",
+  "identifier": "com.superoutman.bubboo.extension.base64",
+  "icon": "64.png",
+  "description": "UTF-8 Base64: standard padded encode, URL-safe unpadded encode, strict decode. Adapted action buttons replace upstream options.",
+  "actions": [
+    {
+      "title": "Base64 Encode",
+      "shellScript": "exec /usr/bin/perl ./bubboo-base64.pl standard",
+      "after": "paste-result"
+    },
+    {
+      "title": "Base64 URL Encode",
+      "shellScript": "exec /usr/bin/perl ./bubboo-base64.pl url",
+      "after": "paste-result"
+    },
+    {
+      "title": "Base64 Decode",
+      "shellScript": "exec /usr/bin/perl ./bubboo-base64.pl decode",
+      "after": "paste-result",
+      "regex": "^[A-Za-z0-9+/_\\-=\\s]+$"
+    }
+  ]
+}

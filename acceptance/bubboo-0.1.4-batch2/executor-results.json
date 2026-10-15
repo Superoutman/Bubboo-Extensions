@@ -1,0 +1,97 @@
+{
+  "checks": [
+    {
+      "action": "Title Case",
+      "input": "the lord of the rings",
+      "output": "The Lord of the Rings",
+      "package": "TitleCase",
+      "result": "PASS",
+      "scenario": "application-changed"
+    },
+    {
+      "action": "Title Case",
+      "input": "the lord of the rings",
+      "output": "The Lord of the Rings",
+      "package": "TitleCase",
+      "result": "PASS",
+      "scenario": "not-editable"
+    },
+    {
+      "action": "Title Case",
+      "package": "TitleCase",
+      "result": "PASS",
+      "scenario": "untrusted-execution"
+    },
+    {
+      "action": "Base64 Encode",
+      "input": "Hello 中文 😀",
+      "output": "SGVsbG8g5Lit5paHIPCfmIA=",
+      "package": "Base64",
+      "result": "PASS",
+      "scenario": "application-changed"
+    },
+    {
+      "action": "Base64 Encode",
+      "input": "Hello 中文 😀",
+      "output": "SGVsbG8g5Lit5paHIPCfmIA=",
+      "package": "Base64",
+      "result": "PASS",
+      "scenario": "not-editable"
+    },
+    {
+      "action": "Base64 Encode",
+      "package": "Base64",
+      "result": "PASS",
+      "scenario": "untrusted-execution"
+    },
+    {
+      "action": "Base64 URL Encode",
+      "input": "😀?",
+      "output": "8J-YgD8",
+      "package": "Base64",
+      "result": "PASS",
+      "scenario": "application-changed"
+    },
+    {
+      "action": "Base64 URL Encode",
+      "input": "😀?",
+      "output": "8J-YgD8",
+      "package": "Base64",
+      "result": "PASS",
+      "scenario": "not-editable"
+    },
+    {
+      "action": "Base64 URL Encode",
+      "package": "Base64",
+      "result": "PASS",
+      "scenario": "untrusted-execution"
+    },
+    {
+      "action": "Base64 Decode",
+      "input": "8J-YgD8",
+      "output": "😀?",
+      "package": "Base64",
+      "result": "PASS",
+      "scenario": "application-changed"
+    },
+    {
+      "action": "Base64 Decode",
+      "input": "8J-YgD8",
+      "output": "😀?",
+      "package": "Base64",
+      "result": "PASS",
+      "scenario": "not-editable"
+    },
+    {
+      "action": "Base64 Decode",
+      "package": "Base64",
+      "result": "PASS",
+      "scenario": "untrusted-execution"
+    }
+  ],
+  "count": 12,
+  "limitations": "Injected frontmost/editability fixtures exercise copy fallback only. No GUI selection acquisition, real focus restoration, CGEvent posting, URL opening, general pasteboard access or successful paste injection tested. This is integration evidence, not full GUI end-to-end acceptance.",
+  "scope": "Production ExtensionStore trust -> ActionExecutor shell actions -> system zsh/Perl -> isolated named pasteboard. No JavaScript helper is needed for these adapters.",
+  "status": "PASS",
+  "timestamp": "2026-10-15T14:23:11Z"
+}

@@ -351,5 +351,66 @@
       "executableSHA256": "c346ef5ee8942ef1b1557adf2e92d62e087939f5ddc0a7a5686a6ceaac438926",
       "releaseURL": "https://github.com/Superoutman/Bubboo/releases/tag/v0.1.2"
     }
+  },
+  {
+    "identifier": "com.superoutman.bubboo.extension.titlecase",
+    "name": "Title Case",
+    "package": "TitleCase.popclipext",
+    "version": "0.1.0",
+    "status": "verified",
+    "reason": "Passed 15 final GUI cases and production executor safeguards on unmodified Bubboo 0.1.4 (5); see documented adaptation limits.",
+    "author": "John Gruber; Aristotle Pagaltzis; Nicholas Moore and contributors",
+    "license": "MIT",
+    "upstream": {
+      "repository": "https://github.com/pilotmoon/PopClip-Extensions",
+      "commit": "a8d8d085f61fe8624b8eed49883324213b4f43f4",
+      "path": "source/TitleCase.popclipext",
+      "author": "John Gruber; Aristotle Pagaltzis; Nicholas Moore and contributors",
+      "changes": [
+        "Keep Config.yaml and titlecase.pl unchanged; add a PopClip Config.plist and zsh wrapper to pass text safely to the original Perl stdin.",
+        "Use a Bubboo-maintained identifier. English title rules and original whitespace behavior are retained.",
+        "Accept single-line selections up to 10000 characters. A wrapper rejects multiline/oversized input without output; do not rely on host regex filtering to hide the button."
+      ]
+    },
+    "minimumBubbooVersion": "0.1.4",
+    "acceptance": "acceptance/bubboo-0.1.4-batch2/README.md",
+    "testedBubbooBuild": {
+      "version": "0.1.4",
+      "buildNumber": "5",
+      "channel": "stable",
+      "executableSHA256": "b8a27108ca88f6af06a742686229bf28ad85757dd67e67ed4f6115312b5e6372",
+      "releaseURL": "https://github.com/Superoutman/Bubboo/releases/tag/v0.1.4"
+    }
+  },
+  {
+    "identifier": "com.superoutman.bubboo.extension.base64",
+    "name": "Base64",
+    "package": "Base64.popclipext",
+    "version": "0.1.0",
+    "status": "verified",
+    "reason": "Passed 15 final GUI cases and production executor safeguards on unmodified Bubboo 0.1.4 (5); see documented adaptation limits.",
+    "author": "Nicholas Moore and contributors",
+    "license": "MIT",
+    "upstream": {
+      "repository": "https://github.com/pilotmoon/PopClip-Extensions",
+      "commit": "a8d8d085f61fe8624b8eed49883324213b4f43f4",
+      "path": "source/Base64.popclipext",
+      "author": "Nicholas Moore and contributors",
+      "changes": [
+        "Preserve original Config.json in upstream/ and retain base64.js/base64.ts unchanged. Adapt the JSON manifest to explicit shell actions supported by Bubboo 0.1.4.",
+        "Use system Perl MIME::Base64 and Encode for UTF-8 conversion, with strict invalid-input rejection. No external dependencies or network.",
+        "Provide Standard Encode (padded), URL-safe Encode (unpadded), and Decode as separate buttons, replacing the upstream variant/padding options. Decode accepts both variants; arbitrary variant/padding combinations are not exposed.",
+        "Use a Bubboo-maintained identifier."
+      ]
+    },
+    "minimumBubbooVersion": "0.1.4",
+    "acceptance": "acceptance/bubboo-0.1.4-batch2/README.md",
+    "testedBubbooBuild": {
+      "version": "0.1.4",
+      "buildNumber": "5",
+      "channel": "stable",
+      "executableSHA256": "b8a27108ca88f6af06a742686229bf28ad85757dd67e67ed4f6115312b5e6372",
+      "releaseURL": "https://github.com/Superoutman/Bubboo/releases/tag/v0.1.4"
+    }
   }
 ]

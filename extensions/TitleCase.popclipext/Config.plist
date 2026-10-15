@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Actions</key>
+	<array>
+		<dict>
+			<key>After</key>
+			<string>paste-result</string>
+			<key>Regular Expression</key>
+			<string>^[^\r\n]{1,10000}$</string>
+			<key>Shell Script File</key>
+			<string>bubboo-titlecase.zsh</string>
+			<key>Title</key>
+			<string>Title Case</string>
+		</dict>
+	</array>
+	<key>Extension Description</key>
+	<string>English title capitalization using the original Gruber/Pagaltzis Perl rules. Requires macOS system Perl.</string>
+	<key>Extension Identifier</key>
+	<string>com.superoutman.bubboo.extension.titlecase</string>
+	<key>Extension Name</key>
+	<string>Title Case</string>
+</dict>
+</plist>

@@ -1,0 +1,11 @@
+{
+  "repository": "https://github.com/pilotmoon/PopClip-Extensions",
+  "commit": "a8d8d085f61fe8624b8eed49883324213b4f43f4",
+  "path": "source/TitleCase.popclipext",
+  "author": "John Gruber; Aristotle Pagaltzis; Nicholas Moore and contributors",
+  "changes": [
+    "Keep Config.yaml and titlecase.pl unchanged; add a PopClip Config.plist and zsh wrapper to pass text safely to the original Perl stdin.",
+    "Use a Bubboo-maintained identifier. English title rules and original whitespace behavior are retained.",
+    "Accept single-line selections up to 10000 characters. A wrapper rejects multiline/oversized input without output; do not rely on host regex filtering to hide the button."
+  ]
+}

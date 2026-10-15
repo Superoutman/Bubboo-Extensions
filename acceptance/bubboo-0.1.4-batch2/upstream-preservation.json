@@ -1,0 +1,50 @@
+[
+  {
+    "package": "TitleCase",
+    "upstreamFile": "Config.yaml",
+    "preservedFile": "extensions/TitleCase.popclipext/Config.yaml",
+    "sha256": "59421e4241dd2149fb6cd51d09053ce3460f9fbd7a18a6e25646e063f3c43ffc"
+  },
+  {
+    "package": "TitleCase",
+    "upstreamFile": "titlecase.pl",
+    "preservedFile": "extensions/TitleCase.popclipext/titlecase.pl",
+    "sha256": "5f83018ee308268d9454edf92306c8dcccce01dca28252f5817ef42761971a9e"
+  },
+  {
+    "package": "TitleCase",
+    "upstreamFile": "README.md",
+    "preservedFile": "extensions/TitleCase.popclipext/README.md",
+    "sha256": "9b3a55a22fcfad27b952a0cb7e25fea8dcfaec1eb04fa31e631899b6a5e6317e"
+  },
+  {
+    "package": "Base64",
+    "upstreamFile": "Config.json",
+    "preservedFile": "extensions/Base64.popclipext/upstream/Config.json",
+    "sha256": "84e4ea0af92908c69f011cf52646c13180306256cc6e486a60793e944118e7da"
+  },
+  {
+    "package": "Base64",
+    "upstreamFile": "base64.js",
+    "preservedFile": "extensions/Base64.popclipext/base64.js",
+    "sha256": "848bab87b2d4ae684c880debb4eb03e8b1b2dcdbcc552f2fa2d6ac147e6a0f2c"
+  },
+  {
+    "package": "Base64",
+    "upstreamFile": "base64.ts",
+    "preservedFile": "extensions/Base64.popclipext/base64.ts",
+    "sha256": "ae49c7871008d0f31e2995fe70fe47ad73e4fea740901e010e0a1a17517d9bb4"
+  },
+  {
+    "package": "Base64",
+    "upstreamFile": "64.png",
+    "preservedFile": "extensions/Base64.popclipext/64.png",
+    "sha256": "123b35c270641c2285f12d4d624e360b10f0fea629fcb4853d494b9d2bb278f6"
+  },
+  {
+    "package": "Base64",
+    "upstreamFile": "Readme.md",
+    "preservedFile": "extensions/Base64.popclipext/Readme.md",
+    "sha256": "e9bc0408d5335bd5747692a42719ac45575d318c31385443789ad41794558498"
+  }
+]

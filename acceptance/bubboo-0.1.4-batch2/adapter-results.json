@@ -1,0 +1,156 @@
+[
+  {
+    "mode": "standard",
+    "input": "",
+    "passed": true
+  },
+  {
+    "mode": "url",
+    "input": "",
+    "passed": true
+  },
+  {
+    "mode": "standard",
+    "input": "Hello 中文 😀",
+    "passed": true
+  },
+  {
+    "mode": "url",
+    "input": "Hello 中文 😀",
+    "passed": true
+  },
+  {
+    "mode": "standard",
+    "input": "line one\nline two &+?#",
+    "passed": true
+  },
+  {
+    "mode": "url",
+    "input": "line one\nline two &+?#",
+    "passed": true
+  },
+  {
+    "mode": "standard",
+    "input": "f",
+    "passed": true
+  },
+  {
+    "mode": "url",
+    "input": "f",
+    "passed": true
+  },
+  {
+    "mode": "standard",
+    "input": "fo",
+    "passed": true
+  },
+  {
+    "mode": "url",
+    "input": "fo",
+    "passed": true
+  },
+  {
+    "mode": "standard",
+    "input": "foo",
+    "passed": true
+  },
+  {
+    "mode": "url",
+    "input": "foo",
+    "passed": true
+  },
+  {
+    "mode": "standard",
+    "input": "é́",
+    "passed": true
+  },
+  {
+    "mode": "url",
+    "input": "é́",
+    "passed": true
+  },
+  {
+    "mode": "standard",
+    "input": "😀?",
+    "passed": true
+  },
+  {
+    "mode": "url",
+    "input": "😀?",
+    "passed": true
+  },
+  {
+    "mode": "standard",
+    "input": "$(touch /tmp/bubboo-should-not-exist)",
+    "passed": true
+  },
+  {
+    "mode": "url",
+    "input": "$(touch /tmp/bubboo-should-not-exist)",
+    "passed": true
+  },
+  {
+    "invalid": "a",
+    "passed": true
+  },
+  {
+    "invalid": "Zg=",
+    "passed": true
+  },
+  {
+    "invalid": "Zh==",
+    "passed": true
+  },
+  {
+    "invalid": "////",
+    "passed": true
+  },
+  {
+    "invalid": "AA==",
+    "passed": true
+  },
+  {
+    "invalid": "!!",
+    "passed": true
+  },
+  {
+    "invalid": "Zg===",
+    "passed": true
+  },
+  {
+    "invalid": "a+_a",
+    "passed": true
+  },
+  {
+    "title": "the lord of the rings",
+    "expected": "The Lord of the Rings",
+    "passed": true
+  },
+  {
+    "title": "hello 中文 & emoji 😀",
+    "expected": "Hello 中文 & Emoji 😀",
+    "passed": true
+  },
+  {
+    "title": "a tale of two cities",
+    "expected": "A Tale of Two Cities",
+    "passed": true
+  },
+  {
+    "title": "  the rise of iPhone and macOS  ",
+    "expected": "The Rise of iPhone and macOS",
+    "passed": true
+  },
+  {
+    "boundary": "multiline or oversized title rejected",
+    "passed": true
+  },
+  {
+    "boundary": "multiline or oversized title rejected",
+    "passed": true
+  },
+  {
+    "boundary": "multiline or oversized title rejected",
+    "passed": true
+  }
+]
