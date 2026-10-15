@@ -6,7 +6,7 @@ A curated collection of original-format PopClip extensions for Bubboo. Authors, 
 
 **13 extensions verified with Bubboo 0.1.2 or later.** [Release acceptance](acceptance/bubboo-0.1.2/README.md). Things 3 is skipped and not included.
 
-Download [Bubboo 0.1.3](https://github.com/Superoutman/Bubboo/releases/tag/v0.1.3), then download individual `.popclipextz` files from [extension Releases](https://github.com/Superoutman/Bubboo-Extensions/releases/latest). Import through Bubboo Settings and explicitly enable each extension. `SHA256SUMS` verifies download integrity.
+Download [Bubboo 0.1.4](https://github.com/Superoutman/Bubboo/releases/tag/v0.1.4), then download individual `.popclipextz` files from [extension Releases](https://github.com/Superoutman/Bubboo-Extensions/releases/latest). Import through Bubboo Settings and explicitly enable each extension. `SHA256SUMS` verifies download integrity.
 
 **Acceptance is a release gate.** `candidate` and `blocked` entries are review material, not verified downloads. Only entries explicitly marked `verified` in [`catalog/entries.json`](catalog/entries.json) are packaged. Store/import tests alone do not establish real browser, selection replacement, Settings UI or target-app compatibility. Things 3 requires real installed-app acceptance.
 
@@ -47,7 +47,7 @@ The generated catalog records artifact filenames relative to the same Release, a
 
 ## Manual extension updates (Bubboo 0.1.3 or later)
 
-The app checks the small static `catalog/updates.json` only on request. It caches the catalog for six hours and uses ETag revalidation. It downloads a selected archive only when the user clicks Update. There is no automatic installation.
+Bubboo 0.1.4 checks the small static `catalog/updates.json` when Settings opens (0.1.3 uses a manual check button). It caches the catalog for six hours and uses ETag revalidation. It downloads a selected archive only when the user clicks Update. There is no automatic installation.
 
 The feed maps exact package content hashes to curated versions. Modified or unknown third-party packages are excluded; older recognized versions can upgrade without changing identifiers or original package formats. Application settings remain outside packages and survive replacement. Changed content always needs fresh approval.
 
