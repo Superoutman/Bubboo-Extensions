@@ -30,14 +30,22 @@ def render(app_repo=None):
   absolute_body=body.replace('(extensions/', '(https://github.com/Superoutman/Bubboo-Extensions/blob/main/extensions/')
   count=sum(e['status']=='verified' for e in entries)
   intros={
-   'README.md': f"""**{count} tested extensions.** Not every PopClip extension works in Bubboo. This list brings tested downloads, minimum App versions and author information together, so you can choose compatible tools without repeated trial installs. Adaptations and limitations are documented through each extension's name link.
+   'README.md': f"""Bubboo extensions give you more ways to work with selected text: search different services, translate, reformat text, or connect a task to a tool you already use. Choose the actions that suit your workflow and keep your toolbar focused on what you need.
+
+This collection makes extensions easier to discover, compare and install. It brings downloads, minimum App versions, original authors and adaptation notes into one place, reducing the effort of finding packages and checking whether they work. The aim is to offer more useful choices while preserving the original creators' work and making sources and changes easy to inspect.
+
+**{count} tested extensions are available below.** Packages are included after compatibility review and real-use testing in Bubboo; this is a curated starting point, not a complete catalog of PopClip extensions. Some packages need adaptations. Open an extension's name to review its source, changes and tested limitations before installing.
 
 **Install and update:** Download a `.popclipextz` package below, import it in Settings and enable it. Configure available options there. Bubboo 0.1.4 checks for extension updates when Settings opens, with a six-hour cache. Upgrade manually; your settings are retained and changed content requires renewed approval. Extension versions are independent of App versions; check the minimum App version in the table.
 
 **Compatibility:** Testing does not cover every OS, regional site or third-party service. Required apps must be installed, and websites may require sign-in or restrict availability. Web searches send selected text to the destination site; scripts can perform local operations. Enable extensions you trust. See the [extension guide](https://github.com/Superoutman/Bubboo-Extensions#current-stable-collection) for details.
 
 """,
-   'README.zh-CN.md': f"""**{count} 个已验收扩展。** 并非所有 PopClip 扩展都能直接用于 Bubboo。这份列表集中提供经过验收的下载包、最低 App 版本和作者信息，减少自行寻找、判断兼容性和反复试装的麻烦。点击扩展名称可查看适配说明及使用限制。
+   'README.zh-CN.md': f"""扩展让 Bubboo 不止于内置动作：你可以为选中的文字选择不同的搜索服务、进行翻译和文本处理，或连接自己常用的工具。按工作习惯选择所需动作，就能组合出更适合自己的划词工具栏。
+
+整理这份列表，是为了让扩展更容易被发现、比较和安装。下载入口、最低 App 版本、原作者及适配说明集中在同一处，减少四处寻找下载包、判断兼容性和反复试装的成本。项目希望在尊重原作者工作的基础上，为用户提供更多实用选择，也让每个扩展的来源与改动清晰可查。
+
+**下表提供 {count} 个已验收扩展。** 收录前会检查兼容性并在 Bubboo 中实际测试；它是一份便于上手的精选目录，并非 PopClip 扩展的完整集合。部分扩展需要适配，点击名称即可了解来源、改动及已验证的使用范围，再决定是否安装。
 
 **安装与更新：** 下载下表中的 `.popclipextz` 文件，在设置中导入并启用；有选项的扩展也在设置中配置。Bubboo 0.1.4 打开设置时检查扩展更新，结果缓存 6 小时。手动升级会保留配置，内容变化后需重新启用授权。扩展版本与 App 版本独立，升级前请检查表格中的最低 App 版本。
 
@@ -45,23 +53,17 @@ def render(app_repo=None):
 
 """
   }
-  copyright_notes={
-   'README.md': """
-
-**Copyright and attribution:** Extension copyright remains with the original authors and respective rights holders. Inclusion and adaptation do not transfer ownership or imply endorsement by the authors or PopClip. Packages retain attribution, applicable licenses, provenance and change notes. MIT in the table refers to code; artwork may have separate terms—for example, Amazon's icon by Dave Gandy uses [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/). Review package files before reuse or redistribution. Report [attribution or licensing concerns](https://github.com/Superoutman/Bubboo-Extensions/issues) with the extension name and relevant source information.
-""",
-   'README.zh-CN.md': """
-
-**版权与来源：** 扩展版权归原作者及相应权利人所有。Bubboo 的收录、适配和分发不代表拥有原作版权，也不表示原作者或 PopClip 官方认可本项目。每个包保留署名、适用许可证、来源及改动说明。表格中的 MIT 指代码，图标可能适用其他许可，例如 Amazon 图标由 Dave Gandy 创作，适用 [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)。再使用或分发前请查看包内文件；署名或许可有误可通过[扩展仓库 Issues](https://github.com/Superoutman/Bubboo-Extensions/issues)提供扩展名称和相关来源，以便核查。
-"""
-  }
+  # Keep the complete attribution section identical to the extension repository.
+  source_readme=(ROOT/'README.md').read_text()
+  copyright_heading='## 版权与来源 / Copyright and attribution'
+  copyright_section=copyright_heading+source_readme.split(copyright_heading,1)[1].split('## 反馈与维护 / Feedback and maintenance',1)[0]
   for filename in ('README.md','README.zh-CN.md'):
    path=app_repo/filename
    content=path.read_text()
    if content.count(START)!=1 or content.count(END)!=1 or '<a id="extensions"></a>' not in content:
     raise ValueError(f'{path}: expected one table block and fixed extensions anchor')
    before,rest=content.split(START,1);_,after=rest.split(END,1)
-   documents.append((path,before+START+'\n'+intros[filename]+absolute_body+copyright_notes[filename]+'\n'+END+after))
+   documents.append((path,before+START+'\n'+intros[filename]+absolute_body+'\n\n'+copyright_section.rstrip()+'\n\n'+END+after))
   for path,content in documents:path.write_text(content)
 if __name__=='__main__':
  parser=argparse.ArgumentParser(description=__doc__)
