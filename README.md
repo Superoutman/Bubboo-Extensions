@@ -1,20 +1,38 @@
 # Bubboo Extensions
 
-A curated collection of original-format PopClip extensions for Bubboo. Authors, licenses and upstream provenance stay with each package. OpenClip support is a future runtime milestone; no new extension format is introduced here.
+经过 Bubboo 实际使用验收的精选扩展，让搜索、翻译和文本处理等操作直接出现在划词工具栏中。
 
-## Current stable collection
+A curated download list of extensions tested with Bubboo, bringing search, translation and text tools to your selection toolbar.
 
-**31 verified extensions.** The original 13 require Bubboo 0.1.2 or later; the 18 additions require 0.1.4. [First-batch acceptance](acceptance/bubboo-0.1.2/README.md) · [Second-batch acceptance and limits](acceptance/bubboo-0.1.4-batch2/README.md). [Third-batch acceptance: 16 passed, 9 blocked](acceptance/bubboo-0.1.4-batch3/README.md). Things 3 is skipped and not included.
+## 为什么有这个列表 / Why this list
 
-Download [Bubboo 0.1.4](https://github.com/Superoutman/Bubboo/releases/tag/v0.1.4), then download individual `.popclipextz` files from [extension Releases](https://github.com/Superoutman/Bubboo-Extensions/releases/latest). Import through Bubboo Settings and explicitly enable each extension. `SHA256SUMS` verifies download integrity.
+PopClip 扩展并不都能直接用于 Bubboo。这个列表集中提供已验收的下载包、最低 App 版本和作者信息，减少自行寻找、判断兼容性和反复试装的麻烦。部分扩展经过适配，差异记录在对应说明中；未通过验收的候选不会列入下载表格。
 
-**Acceptance is a release gate.** `candidate` and `blocked` entries are review material, not verified downloads. Only entries explicitly marked `verified` in [`catalog/entries.json`](catalog/entries.json) are packaged. Store/import tests alone do not establish real browser, selection replacement, Settings UI or target-app compatibility. Things 3 requires real installed-app acceptance.
+Not every PopClip extension works in Bubboo. This list brings tested packages, minimum App versions and attribution together. Adaptations are documented per package; unverified candidates are excluded from the downloads below.
 
-## Extension downloads / 扩展下载
+## 安装与使用 / Install and use
 
-Versions below are curated package versions, independent of the Bubboo App version. Each download is an immutable Release asset. Click an extension name for authorship and adaptation details.
+1. 安装 [Bubboo](https://github.com/Superoutman/Bubboo/releases/latest)，并检查表格中的最低版本。Install Bubboo and check the minimum version below.
+2. 点击表格中的「下载」，在 Bubboo 设置中导入 `.popclipextz` 文件，再启用扩展。Download, import in Settings, then enable the extension.
+3. 选中文字即可使用；带选项的扩展可在设置中配置。Select text to use it; configure available options in Settings.
 
-表中版本是扩展包版本，不是 App 版本；点击名称查看来源及适配说明。Title Case 仅处理单行英文标题；Base64 使用三个动作按钮，不等同于上游完整选项界面。新增扩展均沿用当前 Bubboo 0.1.4，无需升级主 App。网页扩展验收覆盖默认站点，其他地区站点及 IMDbPro 尚未认证。Amazon 代码为 MIT，图标为 Dave Gandy 的 [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)，详情见包内署名。
+**更新：** Bubboo 0.1.4 打开设置时检查扩展更新，结果缓存 6 小时。有更新时手动点击升级，原配置保留；内容变化后需要重新启用授权。扩展更新通常无需重新安装或升级主 App，具体以最低版本为准。
+
+**Updates:** Bubboo 0.1.4 checks when Settings opens, with a six-hour cache. Install updates manually; settings are retained and changed content requires renewed approval. Check minimum versions before updating.
+
+<a id="current-stable-collection"></a>
+
+## 兼容性与权限 / Compatibility and permissions
+
+验收范围不代表所有系统、地区站点和第三方服务均可用。依赖其他 App 的扩展需先安装对应应用；网页服务可能要求登录或受地区限制。脚本扩展可能执行本地操作，网页搜索会将选中文字发送给对应网站，请按用途选择并仅启用可信扩展。各项适配及已知限制见扩展名称链接。
+
+Testing does not cover every OS, regional site or third-party service. Required apps must be installed; websites may require sign-in or have regional restrictions. Scripts can perform local operations, and web searches send selected text to the destination site. Enable extensions you trust and review package notes for limitations.
+
+## 扩展下载 / Extension downloads
+
+表中版本是扩展包版本，与 App 版本独立。点击名称查看来源、适配说明及使用限制；点击「下载」获取可导入的包。
+
+Package versions are independent of App versions. Open an extension name for its source, adaptation notes and limitations, or Download to install it.
 
 <!-- extension-table:start -->
 | 扩展 / Extension | 用途 | 版本 | 最低 Bubboo | 作者 / 许可证 | 下载 |
@@ -52,62 +70,18 @@ Versions below are curated package versions, independent of the Bubboo App versi
 | [YouTube](extensions/YouTube.popclipext/NOTICE.md) | 视频搜索 | 0.1.0 | 0.1.2 | [Nicholas Moore and contributors](extensions/YouTube.popclipext/NOTICE.md) · [MIT](extensions/YouTube.popclipext/LICENSE.txt) | [下载 / Download](https://github.com/Superoutman/Bubboo-Extensions/releases/download/v0.1.3/YouTube-0.1.0.popclipextz) |
 <!-- extension-table:end -->
 
-## Validate and build
+## 版权与来源 / Copyright and attribution
 
-Requires Python 3.10+; standard library only.
+扩展版权归原作者及相应权利人所有。Bubboo 对扩展的收录、兼容适配和分发，不代表拥有原作版权，也不表示原作者或 PopClip 官方认可或参与本项目。Bubboo 与 PopClip 是独立项目。
 
-```sh
-python3 scripts/build.py --check
-python3 scripts/test_build.py
-python3 scripts/build.py --output dist
-```
+每个包保留原作者署名、适用许可证和来源记录；适配改动在 `NOTICE.md` 中说明。代码、图标等资源可能适用不同许可，使用或再分发时请查看包内文件。下载表格中的 MIT 指扩展代码；例如 Amazon 图标由 Dave Gandy 创作，适用 [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)。
 
-When no entries are verified, the final command fails without producing artifacts. Output must be absent or empty to avoid carrying old downloads into a release. Build results are deterministic `.popclipextz` ZIPs, `catalog.json`, and `SHA256SUMS`. Each archive retains the original package directory, `LICENSE.txt`, `NOTICE.md` and `UPSTREAM.json`. SHA-256 hashes detect content changes; they do not establish publisher identity or replace Bubboo's explicit trust approval.
+Copyright remains with the original authors and respective rights holders. Inclusion, adaptation and distribution do not transfer ownership or imply endorsement by the authors or PopClip. Packages retain attribution, license notices, provenance and documented changes. Code and artwork may have different licenses; review the package files before reuse or redistribution.
 
-## Maintenance and publication
+如发现署名、许可或收录有误，请通过 [Issues](https://github.com/Superoutman/Bubboo-Extensions/issues) 提供扩展名称、相关来源和问题说明，以便核查处理。Please report attribution, licensing or inclusion concerns with the extension name and relevant source information.
 
-1. Submit a PR with one focused package change, upstream commit, author, license and adaptation notes. Keep the original source format. Do not include Bubboo private application sources, user preferences, credentials or personal acceptance data.
-2. Review provenance and licensing; record each modification in the package's `NOTICE.md` and `UPSTREAM.json`. Adapted extension identity is documented there; no package is represented as an unmodified upstream release unless it is one.
-3. Run import/trust tests and real end-to-end acceptance on the stated minimum Bubboo version. Record evidence in `acceptance`, set a verified `minimumBubbooVersion` (or an exact `testedBubbooBuild` for development-only prereleases), and only then change status to `verified`. Review every updated package again and bump its curated `version`.
-4. PR CI runs validation and isolated build tests with read-only permissions. It never executes extension code, publishes a release or reads release secrets.
-5. Publication plan: after maintainer approval, tag the reviewed commit, run the deterministic build from that exact tag, verify `SHA256SUMS`, then attach the generated archives, index and checksums to its GitHub Release. A future tag workflow should use a protected release environment and `contents: write` only in that publication job. **Automatic release publishing is not enabled in this repository.**
+## 反馈与维护 / Feedback and maintenance
 
-The generated catalog records artifact filenames relative to the same Release, author/license/provenance, minimum app version, acceptance reference and archive hash. Keep application/Sparkle releases separate. Raw candidate folders remain available for review and should not be advertised as compatible downloads.
+遇到问题时，请附上扩展名称、Bubboo/macOS 版本及复现步骤，勿提交密码或私人选中文字。[反馈问题](https://github.com/Superoutman/Bubboo-Extensions/issues) · [维护、验收与发布说明](MAINTAINING.md)
 
-## 中文说明
-
-**当前正式合集：15 项。原有 13 项最低兼容 Bubboo 0.1.2；新增 Title Case、Base64 在 Bubboo 0.1.4（build 5）通过端到端验收。Things 3 暂不包含。**
-
-这是 Bubboo 的精选扩展源码与下载仓库，保留 PopClip 原格式、原作者及许可证。未来可以纳入经过独立验收的 OpenClip 原格式扩展，当前不声称已支持。
-
-- `candidate`：等待端到端验收；`blocked`：验收条件缺失；`verified`：已完成记录中的验收，允许打包。
-- 仅验证导入成功不等于正式兼容，浏览器跳转、配置生效、焦点回填和目标 App 都需按实际能力验收。
-- 构建只读取显式清单中 `verified` 的条目；零通过条目时拒绝生成发布附件，不伪造通过状态。
-- 每个归档都带 `LICENSE.txt`、`NOTICE.md`、`UPSTREAM.json`，修改需说明来源和差异。根目录脚本使用 MIT；各扩展以各自许可证为准，不能把第三方代码称为自有原创。
-- 公共 PR 自动执行只读校验；发布需先完成验收、合并审核、打 tag，再将该 tag 构建出的附件上传 GitHub Release。当前没有自动上传权限或发布任务。
-- 每次上游更新重新验收；扩展版本、目录和下载与 Bubboo App/Sparkle 更新分开维护。
-
-## Manual extension updates (Bubboo 0.1.3 or later)
-
-Bubboo 0.1.4 checks the small static `catalog/updates.json` when Settings opens (0.1.3 uses a manual check button). It caches the catalog for six hours and uses ETag revalidation. It downloads a selected archive only when the user clicks Update. There is no automatic installation.
-
-The feed maps exact package content hashes to curated versions. Modified or unknown third-party packages are excluded; older recognized versions can upgrade without changing identifiers or original package formats. Application settings remain outside packages and survive replacement. Changed content always needs fresh approval.
-
-After publishing a stable extension Release:
-1. Download its `catalog.json` and archives using `gh release download <tag>`.
-2. Run `python3 scripts/update_feed.py --assets <download-directory> --tag <tag>`.
-3. Run `python3 scripts/test_update_feed.py`, review the generated history, and commit `catalog/updates.json` only after verifying the public downloads. Do not delete historical content hashes; they identify older installations.
-4. Run `python3 scripts/render_readme.py` to refresh the download table from the verified feed. Review and commit the table with the feed so versions and links stay consistent.
-5. Changed package content must increment its curated version. Never overwrite an existing Release archive.
-
-All release preparation remains local. The public Ubuntu validation job uploads no artifacts or cache; repository Actions paid usage is capped at $0.
-
-### Sync the App download page
-
-After verifying release assets and regenerating `catalog/updates.json`, run locally:
-
-```sh
-python3 scripts/render_readme.py --app-repo ../Bubboo-public
-```
-
-This updates the extension table here and both public App READMEs from the same catalog, rewriting attribution links to absolute URLs. Commit and push the documentation changes in both repositories. Keep the public App anchor `#extensions` stable; the App download button targets it. No GitHub workflow or App release is needed for table updates.
+Report issues with the extension name, Bubboo/macOS versions and reproduction steps. Do not include passwords or private selected text.
